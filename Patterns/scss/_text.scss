@@ -1,0 +1,40 @@
+// Headings
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: $header_font_family;
+	font-weight: $header_font_weight;
+}
+
+ 
+h1 {
+	font-size: 54px;
+	color: $yellow;
+}
+
+h2 {
+	font-size: 45px;
+	color: $yellow;
+}
+
+h3 {
+	font-size: 36px;
+	color: $yellow;
+}
+
+h4 {
+	font-size: 27px;
+	color: $beige;
+}
+
+p {
+	font-family:$body_font_family;
+	font-weight:$body_font_weight;
+	margin-bottom: ;
+	line-height:
+	font-size : 18px;
+	color: $beige;
+}
