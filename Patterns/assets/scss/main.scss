@@ -1,0 +1,14 @@
+// Import Variables first to override the defaults set in bootstrap
+@import "variables";
+// Import Bootstrap
+@import "../../bootstrap/assets/stylesheets/bootstrap";
+
+@import "patterns.scss";
+@import "colours.scss";
+@import "headers.scss";
+@import "body_text.scss";
+@import "nav.scss";
+
+/*********************************
+* Your own imports shoud go here
+*********************************/
