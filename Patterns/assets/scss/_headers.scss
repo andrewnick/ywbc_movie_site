@@ -1,5 +1,10 @@
 // Headings
 
+@mixin fontSizeColour($sz, $fontColour){
+	font-size: $sz;
+	color: $fontColour;
+}
+
 h1,
 h2,
 h3,
@@ -15,23 +20,20 @@ h5 {
  
 h1 {
 	&.heading {
-		font-size: 54px;
-		color: $yellow;
+		@include fontSizeColour(54px, $yellow);
 	}
 }
 
 h2 {
 	&.heading {
-		font-size: 45px;
-		color: $yellow;
+		@include fontSizeColour(45px, $yellow);
 	}
 }
 
 h3 {
 
 	&.heading {
-		font-size: 36px;
-		color: $brown;
+		@include fontSizeColour(36px, $brown);
 	}
 
 
@@ -42,8 +44,7 @@ h3 {
 
 h4 {
 	&.heading {
-		font-size: 27px;
-		color: $beige;
+		@include fontSizeColour(27px, $beige);
 	}
 
 }

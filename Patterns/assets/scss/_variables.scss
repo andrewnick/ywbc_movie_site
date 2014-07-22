@@ -5,6 +5,9 @@ $beige: #f0e5b7;
 $brown: #5b4937;
 $chocBrown: #42110a;
 
+// Array of colours
+$movieColours: blue $blue, yellow $yellow, beige $beige, brown $brown, chocBrown $chocBrown;
+
 // Font families
 $header_font_family: 'Source Code Pro', 'Lucida Grande', sans-serif;
 $count_font_family: "Lucida Grande", sans-serif;
@@ -20,3 +23,16 @@ $gridwidth: 7px;
 $baseline: 28px;
 
 $brand-primary: #7B8489;
+
+// Nav Pill Variables
+
+
+
+$nav-pills-active-link-hover-color: $yellow;
+$nav-pills-active-link-hover-bg: transparent; 
+
+// Unused Vars
+//$nav-pills-border-radius;
+
+// Stacked pills
+

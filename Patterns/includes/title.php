@@ -1,0 +1,1 @@
+<a href="#"><img src="assets/images/Title.png" alt="LIFE Title"></a>

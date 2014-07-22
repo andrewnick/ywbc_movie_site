@@ -29,9 +29,3 @@
 	echo $nav;
 
 ?>
-
-
-<!-- <ul class="nav nav-pills nav-stacked nav__list header__nav">
-	<li class="active"><a href="#">Nav Link 1</h3></a></li>
-	<li class="active"><a href="#">Nav Link 2</a></li>
-</ul>	 -->

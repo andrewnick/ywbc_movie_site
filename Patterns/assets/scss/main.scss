@@ -3,12 +3,13 @@
 // Import Bootstrap
 @import "../../bootstrap/assets/stylesheets/bootstrap";
 
-@import "patterns.scss";
-@import "colours.scss";
-@import "headers.scss";
-@import "body_text.scss";
-@import "nav.scss";
-
 /*********************************
 * Your own imports shoud go here
 *********************************/
+
+@import "colours.scss";
+@import "headings.scss";
+@import "body_text.scss";
+@import "nav.scss"; 
+@import "background.scss";
+@import "header.scss";

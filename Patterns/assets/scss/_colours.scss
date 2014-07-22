@@ -4,24 +4,10 @@
 	float: left;
 	margin-right: 6px;
 
-	&.colour_palette__blue{
-		background-color: $blue;
-	}
-
-	&.colour_palette__yellow{
-		background-color: $yellow;
-	}
-
-	&.colour_palette__beige{
-		background-color: $beige;
-	}
-
-	&.colour_palette__brown{
-		background-color: $brown;
-	}
-
-	&.colour_palette__chocBrown{
-		background-color: $chocBrown;
+	@each $colour in $movieColours {
+		&.colour_palette__#{nth($colour, 1)}{
+			background-color: nth($colour, 2);
+		}
 	}
 }
 
