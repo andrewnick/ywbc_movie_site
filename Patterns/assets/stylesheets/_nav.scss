@@ -1,0 +1,38 @@
+
+.header__nav{
+	font-family: $header_font_family;
+	font-size: $nav_font_size;
+	font-weight: $header_font_weight;
+
+	> li {
+	    &.active > a {
+	      &,
+	      &:hover,
+	      &:focus {
+	        color: black;
+	        background-color: transparent;
+	      }
+
+	      &:hover{
+	      	text-decoration: underline;
+	      }
+	    }
+
+	    &.inactive > a {
+	      &,
+	      &:hover,
+	      &:focus {
+	        color: $yellow;
+	        background-color: transparent;
+	      }
+
+	      &:hover{
+	      	text-decoration: underline;
+	      }
+	    }
+	}
+}
+
+.nav__item:hover {
+	text-decoration: underline;
+}

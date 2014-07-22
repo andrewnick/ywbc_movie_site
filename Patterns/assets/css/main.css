@@ -1,0 +1,126 @@
+/* line 7, ../stylesheets/_patterns.scss */
+h1.patterns__header,
+h2.patterns__header,
+h3.patterns__header,
+h4.patterns__header,
+h5.patterns__header {
+  color: black;
+}
+
+/* line 1, ../stylesheets/_colours.scss */
+.colour_palette {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-right: 6px;
+}
+/* line 7, ../stylesheets/_colours.scss */
+.colour_palette.colour_palette__blue {
+  background-color: #90a4a4;
+}
+/* line 11, ../stylesheets/_colours.scss */
+.colour_palette.colour_palette__yellow {
+  background-color: #f5c93f;
+}
+/* line 15, ../stylesheets/_colours.scss */
+.colour_palette.colour_palette__beige {
+  background-color: #f0e5b7;
+}
+/* line 19, ../stylesheets/_colours.scss */
+.colour_palette.colour_palette__brown {
+  background-color: #5b4937;
+}
+/* line 23, ../stylesheets/_colours.scss */
+.colour_palette.colour_palette__chocBrown {
+  background-color: #42110a;
+}
+
+/* line 9, ../stylesheets/_headers.scss */
+h1.heading,
+h2.heading,
+h3.heading,
+h4.heading,
+h5.heading {
+  font-family: "Source Code Pro", "Lucida Grande", sans-serif;
+  font-weight: 300;
+}
+
+/* line 17, ../stylesheets/_headers.scss */
+h1.heading {
+  font-size: 54px;
+  color: #f5c93f;
+}
+
+/* line 24, ../stylesheets/_headers.scss */
+h2.heading {
+  font-size: 45px;
+  color: #f5c93f;
+}
+
+/* line 32, ../stylesheets/_headers.scss */
+h3.heading {
+  font-size: 36px;
+  color: #5b4937;
+}
+/* line 38, ../stylesheets/_headers.scss */
+h3.nav {
+  color: #f5c93f;
+}
+
+/* line 44, ../stylesheets/_headers.scss */
+h4.heading {
+  font-size: 27px;
+  color: #f0e5b7;
+}
+
+/* line 51, ../stylesheets/_headers.scss */
+.countdown {
+  font-family: "Lucida Grande", sans-serif;
+  color: #f5c93f;
+}
+/* line 55, ../stylesheets/_headers.scss */
+.countdown.countdown__title {
+  font-weight: bold;
+}
+/* line 59, ../stylesheets/_headers.scss */
+.countdown.countdown__counter {
+  font-size: 36px;
+}
+
+/* line 2, ../stylesheets/_body_text.scss */
+p.body_text {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: #42110a;
+}
+
+/* line 2, ../stylesheets/_nav.scss */
+.header__nav {
+  font-family: "Source Code Pro", "Lucida Grande", sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+}
+/* line 11, ../stylesheets/_nav.scss */
+.header__nav > li.active > a, .header__nav > li.active > a:hover, .header__nav > li.active > a:focus {
+  color: black;
+  background-color: transparent;
+}
+/* line 16, ../stylesheets/_nav.scss */
+.header__nav > li.active > a:hover {
+  text-decoration: underline;
+}
+/* line 24, ../stylesheets/_nav.scss */
+.header__nav > li.inactive > a, .header__nav > li.inactive > a:hover, .header__nav > li.inactive > a:focus {
+  color: #f5c93f;
+  background-color: transparent;
+}
+/* line 29, ../stylesheets/_nav.scss */
+.header__nav > li.inactive > a:hover {
+  text-decoration: underline;
+}
+
+/* line 36, ../stylesheets/_nav.scss */
+.nav__item:hover {
+  text-decoration: underline;
+}

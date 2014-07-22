@@ -1,0 +1,62 @@
+// Headings
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+	&.heading{
+		font-family: $header_font_family;
+		font-weight: $header_font_weight;
+	}
+}
+
+ 
+h1 {
+	&.heading {
+		font-size: 54px;
+		color: $yellow;
+	}
+}
+
+h2 {
+	&.heading {
+		font-size: 45px;
+		color: $yellow;
+	}
+}
+
+h3 {
+
+	&.heading {
+		font-size: 36px;
+		color: $brown;
+	}
+
+
+	&.nav {
+		color: $yellow;
+	}
+}
+
+h4 {
+	&.heading {
+		font-size: 27px;
+		color: $beige;
+	}
+
+}
+
+.countdown{
+	font-family: $count_font_family;
+	color: $yellow;
+
+	&.countdown__title {
+		font-weight: bold;
+	}
+
+	&.countdown__counter {
+		font-size: 36px;
+	}
+}
