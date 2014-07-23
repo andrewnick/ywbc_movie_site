@@ -1,4 +1,5 @@
 $header_height: $logo_height + 50px;
+
 .header__content {
 	height: $header_height; 
 	@include addBorder($borderColor: $beige, $bottom: true);

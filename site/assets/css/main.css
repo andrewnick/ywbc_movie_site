@@ -8067,6 +8067,7 @@ button.close {
 
 /* line 2, ../scss/_body_text.scss */
 p.body_text {
+  margin-top: 42px;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 18px;
@@ -8161,18 +8162,18 @@ p.body_text {
   border-color: #f0e5b7;
 }
 
-/* line 2, ../scss/_header.scss */
+/* line 3, ../scss/_header.scss */
 .header__content {
   height: 182px;
   border-bottom: 3px solid #f0e5b7;
 }
 
-/* line 7, ../scss/_header.scss */
+/* line 8, ../scss/_header.scss */
 .header__ceiling {
   height: 256px;
 }
 
-/* line 11, ../scss/_header.scss */
+/* line 12, ../scss/_header.scss */
 .header__floor {
   height: 46px;
 }
@@ -8242,7 +8243,7 @@ h4.heading {
 
 /* line 1, ../scss/_home_main.scss */
 .home_main__bg--top {
-  height: 100px;
+  height: 120px;
 }
 
 /* line 5, ../scss/_home_main.scss */
@@ -8255,19 +8256,15 @@ h4.heading {
   height: 1000px;
 }
 
-/* line 1, ../scss/_footer.scss */
-footer {
-  height: 150px;
-}
-
 /* line 5, ../scss/_footer.scss */
-.footer__container {
-  margin-top: 50px;
+.footer__text__container {
+  margin-top: 56px;
+  margin-bottom: 56px;
 }
 
-/* line 9, ../scss/_footer.scss */
+/* line 14, ../scss/_footer.scss */
 .footer__text {
-  margin-top: 0px;
+  margin-top: 14px;
   margin-bottom: 0px;
   font-family: "Lucida Grande", sans-serif;
   font-size: 18px;

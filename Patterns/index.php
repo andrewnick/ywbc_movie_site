@@ -183,20 +183,17 @@
 		<div class="row">
 			<div class="col-md-12">
 			    <h1 class="">Header</h1>
-			  	<?php require_once ('includes/header.php'); ?>				
+			  	<?php require_once ('../site/includes/header.php'); ?>				
 			</div>
 		</div>
 	</div>	
 
-	<div class="continer-fluid">
-		<div class="row">
-			<?php require_once ('includes/home_main.php'); ?>
-		</div>
-	</div>
-
 	<div class="container-fluid">
 		<div class="row">
-			<?php require_once ('includes/footer.php'); ?>
+			<div class="col-md-12">
+			    <h1 class="">Footer</h1>
+				<?php require_once ('../site/includes/footer.php'); ?>
+			</div>
 		</div>
 	</div>
 	

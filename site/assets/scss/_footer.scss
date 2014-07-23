@@ -1,13 +1,18 @@
-footer {
-	height: 150px;
+footer{
+	//margin-top: $gridheight * 6;
 }
 
-.footer__container {
-	margin-top: 50px;
+.footer__text__container {
+	margin-top: $baseline*2;
+	margin-bottom: $baseline*2;
 }
+
+// .footer__text:first-child {
+// 	margin-top: 0px;
+// }
 
 .footer__text {
-		margin-top: 0px;
+		margin-top: $gridheight * 2;
 		margin-bottom: 0px;
 		font-family: $footer_font_family;
 		font-size: 18px;
