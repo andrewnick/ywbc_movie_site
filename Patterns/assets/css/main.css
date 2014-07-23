@@ -8241,12 +8241,17 @@ h4.heading {
 }
 
 /* line 1, ../scss/_home_main.scss */
-.main__bg--top {
+.home_main__bg--top {
   height: 100px;
 }
 
 /* line 5, ../scss/_home_main.scss */
-.main__bg--bottom {
+.home_main__text__border {
+  border-left: 3px solid #42110a;
+}
+
+/* line 9, ../scss/_home_main.scss */
+.home_main__bg--bottom {
   height: 1000px;
 }
 

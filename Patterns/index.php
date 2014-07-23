@@ -190,7 +190,7 @@
 
 	<div class="continer-fluid">
 		<div class="row">
-			<?php require_once ('includes/main.php'); ?>
+			<?php require_once ('includes/home_main.php'); ?>
 		</div>
 	</div>
 

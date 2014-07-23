@@ -1,7 +1,11 @@
-.main__bg--top {
+.home_main__bg--top {
 	height: 100px;
 }
 
-.main__bg--bottom {
+.home_main__text__border{
+	@include addBorder($borderColor: $choc_brown, $left: true);
+}
+
+.home_main__bg--bottom {
 	height: 1000px;
 }
