@@ -86,6 +86,19 @@
 				</div>					
 			</div>
 		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h1 class="panel-title">Footer Text</h1>
+					  </div>
+					  <div class="panel-body">
+					  	<?php require_once ('includes/footer_text.php'); ?>
+					  </div>
+				</div>					
+			</div>
+		</div>
 		
 		<div class="row">
 			<div class="col-md-12">
@@ -178,6 +191,12 @@
 	<div class="continer-fluid">
 		<div class="row">
 			<?php require_once ('includes/main.php'); ?>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<?php require_once ('includes/footer.php'); ?>
 		</div>
 	</div>
 	

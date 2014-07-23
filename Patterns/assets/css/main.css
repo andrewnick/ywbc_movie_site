@@ -8122,12 +8122,12 @@ p.body_text {
 }
 
 /* line 6, ../scss/_background.scss */
-.background--main {
+.background--beige {
   background-image: url("../../assets/media/main_bg.png");
 }
 
 /* line 10, ../scss/_background.scss */
-.background--header {
+.background--blue {
   background-image: url("../../assets/media/header_bg.png");
 }
 
@@ -8238,4 +8238,27 @@ h4.heading {
   font-size: 36px;
   margin-top: 0px;
   margin-bottom: 0px;
+}
+
+/* line 1, ../scss/_home_main.scss */
+.main__bg--top {
+  height: 50px;
+}
+
+/* line 5, ../scss/_home_main.scss */
+.main__bg--bottom {
+  height: 1000px;
+}
+
+/* line 1, ../scss/_footer.scss */
+footer {
+  height: 150px;
+}
+
+/* line 5, ../scss/_footer.scss */
+.footer__text {
+  padding-top: 25px;
+  font-family: "Lucida Grande", sans-serif;
+  font-size: 18px;
+  color: #ffde38;
 }
