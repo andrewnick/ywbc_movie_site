@@ -174,6 +174,12 @@
 			</div>
 		</div>
 	</div>	
+
+	<div class="continer-fluid">
+		<div class="row">
+			<?php require_once ('includes/main.php'); ?>
+		</div>
+	</div>
 	
 
 	<!-- Bootstrap core JavaScript

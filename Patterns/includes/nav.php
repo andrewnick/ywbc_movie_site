@@ -12,7 +12,7 @@
 	    foreach($pages as $slug => $pageName){
     		$class = "active";
 
-    		if($_GET['pages'] == $slug ){
+    		if(isset($_GET['pages']) == $slug ){
     			$class = "active";
     		}
 
