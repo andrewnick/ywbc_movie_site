@@ -1,0 +1,14 @@
+.colour_palette {
+	width: 80px;
+	height: 80px;
+	float: left;
+	margin-right: 6px;
+
+	@each $colour in $movieColours {
+		&.colour_palette__#{nth($colour, 1)}{
+			background-color: nth($colour, 2);
+		}
+	}
+}
+
+

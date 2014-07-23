@@ -1,0 +1,55 @@
+.header__nav{
+	font-family: $header_font_family;
+	font-size: $nav_font_size;
+	font-weight: $header_font_weight;
+	line-height: 1;
+	height: $logo_height;
+	margin-top: -5px;
+	margin-left: 40px;
+
+	> li {
+
+		&+ li {
+			margin-top: 17px;
+			margin-left: 0px;
+		}
+
+		a {
+			padding:0px;
+			// color: $yellow;
+	  //       background-color: transparent;
+		}
+
+	    &.active > a {
+
+
+	      &,
+	      &:hover,
+	      &:focus {
+	        color: $yellow;
+	        background-color: transparent;
+	      }
+
+	      &:hover{
+	      	text-decoration: underline;
+	      }
+	    }
+
+	    &.inactive > a {
+	      &,
+	      &:hover,
+	      &:focus {
+	        color: $yellow;
+	        background-color: transparent;
+	      }
+
+	      &:hover{
+	      	text-decoration: underline;
+	      }
+	    }
+	}
+}
+
+.nav__item:hover {
+	text-decoration: underline;
+}

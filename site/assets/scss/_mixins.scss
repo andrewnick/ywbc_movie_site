@@ -1,0 +1,14 @@
+
+//
+// Border mixin
+//
+// This mixin extends the function of creating borders
+
+@mixin addBorder($borderColor, $width: 3px, $top: false, $left: false, $bottom: false, $right: false){
+
+	@if $top {border-top: $width solid  $borderColor};
+	@if $left {border-left: $width solid  $borderColor};
+	@if $bottom {border-bottom: $width solid  $borderColor};
+	@if $right {border-right: $width solid  $borderColor};
+
+}
