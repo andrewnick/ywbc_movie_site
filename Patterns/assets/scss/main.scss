@@ -1,5 +1,6 @@
 // Import Variables first to override the defaults set in bootstrap
 @import "variables";
+@import "mixins";
 // Import Bootstrap
 @import "../../bootstrap/assets/stylesheets/bootstrap";
 
@@ -8,8 +9,9 @@
 *********************************/
 
 @import "colours.scss";
-@import "headings.scss";
 @import "body_text.scss";
 @import "nav.scss"; 
 @import "background.scss";
+@import "separators.scss";
 @import "header.scss";
+@import "headings.scss";

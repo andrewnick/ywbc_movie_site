@@ -138,7 +138,43 @@
 				</div>					
 			</div>
 		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h1 class="panel-title">Separators</h1>
+					  </div>
+					  <div class="panel-body">
+					  	<?php require_once ('includes/separators.php'); ?>
+					  </div>
+				</div>					
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h1 class="panel-title">Video</h1>
+					  </div>
+					  <div class="panel-body">
+					  	<?php require_once ('includes/video.php'); ?>
+					  </div>
+				</div>					
+			</div>
+		</div>
 	</div>
+	
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12">
+			    <h1 class="">Header</h1>
+			  	<?php require_once ('includes/header.php'); ?>				
+			</div>
+		</div>
+	</div>	
+	
 
 	<!-- Bootstrap core JavaScript
     ================================================== -->

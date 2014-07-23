@@ -1,38 +1,27 @@
 // Colours
 $blue: #90a4a4;
-$yellow: #f5c93f;
+$yellow: #ffde38;
 $beige: #f0e5b7;
 $brown: #5b4937;
-$chocBrown: #42110a;
+$choc_brown: #42110a;
 
 // Array of colours
-$movieColours: blue $blue, yellow $yellow, beige $beige, brown $brown, chocBrown $chocBrown;
+$movieColours: blue $blue, yellow $yellow, beige $beige, brown $brown, choc_brown $choc_brown;
 
-// Font families
+// Font families and settings
 $header_font_family: 'Source Code Pro', 'Lucida Grande', sans-serif;
 $count_font_family: "Lucida Grande", sans-serif;
-$header_font_weight: 300;
+$header_font_weight: 200;
 $nav_font_size: 36px;
 
 $body_font_family: 'Raleway', sans-serif;
 $body_font_weight: normal;
 $body_font_size: 18px;
 
+// Logo
+$logo_height: 132px;
+
 //Grid Dimensions
 $gridwidth: 7px;
 $baseline: 28px;
-
-$brand-primary: #7B8489;
-
-// Nav Pill Variables
-
-
-
-$nav-pills-active-link-hover-color: $yellow;
-$nav-pills-active-link-hover-bg: transparent; 
-
-// Unused Vars
-//$nav-pills-border-radius;
-
-// Stacked pills
 
