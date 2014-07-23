@@ -8242,7 +8242,7 @@ h4.heading {
 
 /* line 1, ../scss/_home_main.scss */
 .main__bg--top {
-  height: 50px;
+  height: 100px;
 }
 
 /* line 5, ../scss/_home_main.scss */
@@ -8256,8 +8256,14 @@ footer {
 }
 
 /* line 5, ../scss/_footer.scss */
+.footer__container {
+  margin-top: 50px;
+}
+
+/* line 9, ../scss/_footer.scss */
 .footer__text {
-  padding-top: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   font-family: "Lucida Grande", sans-serif;
   font-size: 18px;
   color: #ffde38;

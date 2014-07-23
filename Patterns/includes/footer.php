@@ -1,5 +1,5 @@
 <footer class="background--blue">
-	<div class="footer__text container">
+	<div class="footer__container container">
 		<div class="row">
 			<h5 class="footer__text col-md-4"> Written &amp Directed by Rob Blackhurst </h5>			
 			<h5 class="footer__text col-md-3 col-md-offset-5"> Email Rob </h5>
