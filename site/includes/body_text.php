@@ -1,1 +1,0 @@
-<p class="body_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nihil ut nobis unde obcaecati fugit, assumenda corrupti accusantium et voluptatem delectus minus ad, id fugiat totam, asperiores blanditiis, dolorum dicta.</p>

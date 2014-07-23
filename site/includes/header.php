@@ -9,10 +9,9 @@
 				<a href="#"><img src="assets/media/Title.png" alt="LIFE Title"></a>
 			</div>
 			<div class="col-md-4">
-				<?php 	
-						$nav = createNavFromArray($pages);	
-						echo $nav;
-				?>				
+
+				<?php require_once ('includes/nav.php'); ?>
+			
 			</div>
 
 			<div class="countdown countdown__container col-md-5">

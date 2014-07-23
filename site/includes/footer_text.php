@@ -1,1 +1,0 @@
-<h5 class="footer__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium iusto ducimus, vitae amet nulla debitis minima vel, perspiciatis dolorum doloribus repellendus aspernatur rem laborum quos earum ratione alias. Ipsum, repellat!</h5>
