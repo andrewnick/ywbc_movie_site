@@ -14,10 +14,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="../site/assets/css/main.css" rel="stylesheet">
 
     <!-- add Modernizr -->
-    <script src="assets/js/vendor/modernizr-2.8.0.min.js"></script>
+    <script src="../site/assets/js/vendor/modernizr-2.8.0.min.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>

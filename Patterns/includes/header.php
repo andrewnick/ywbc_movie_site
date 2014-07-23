@@ -6,7 +6,7 @@
 	<div class="row background--blue">
 		<div class="container header__content">
 			<div class="col-md-3">
-				<a href="#"><img src="assets/media/Title.png" alt="LIFE Title"></a>
+				<a href="#"><img src="../site/assets/media/Title.png" alt="LIFE Title"></a>
 			</div>
 			<div class="col-md-4">
 				<?php 	

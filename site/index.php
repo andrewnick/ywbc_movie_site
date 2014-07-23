@@ -42,7 +42,7 @@
 	<?php require_once ('includes/header.php'); ?>	
 
 	<?php require_once ('includes/home_main.php'); ?>
-	
+
 	<?php require_once ('includes/footer.php'); ?>
 	
 
