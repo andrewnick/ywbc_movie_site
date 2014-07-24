@@ -10,31 +10,25 @@ h2,
 h3,
 h4,
 h5 {
-
-	&.heading{
 		font-family: $header_font_family;
 		font-weight: $header_font_weight;
-	}
 }
 
  
 h1 {
-	&.heading {
-		@include fontSizeColour(54px, $yellow);
-	}
+
+	@include fontSizeColour(54px, $choc_brown);
+
 }
 
 h2 {
-	&.heading {
-		@include fontSizeColour(45px, $yellow);
-	}
+	@include fontSizeColour(45px, $choc_brown);
+
 }
 
 h3 {
 
-	&.heading {
-		@include fontSizeColour(36px, $brown);
-	}
+	@include fontSizeColour(36px, $choc_brown);
 
 
 	&.nav {
@@ -43,10 +37,7 @@ h3 {
 }
 
 h4 {
-	&.heading {
-		@include fontSizeColour(27px, $beige);
-	}
-
+	@include fontSizeColour(27px, $choc_brown);
 }
 
 .countdown{
@@ -61,13 +52,14 @@ h4 {
 
 	&.countdown__title {
 		font-size: 45px;
-		font-weight: bold;
-		margin-top:15px;
-		margin-bottom:15px;	
+		font-weight: $count_font_weight;
+		margin-top: $gridheight * 4;
+		margin-bottom: $gridheight * 4;	
 	}
 
 	&.countdown__counter {
 		font-size: 36px;
+		font-weight: $count_font_weight;
 		margin-top:0px;
 		margin-bottom:0px;	
 	}

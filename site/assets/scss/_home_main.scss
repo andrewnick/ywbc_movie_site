@@ -1,16 +1,17 @@
-// Variables for main container heights
-$bg_top: $gridheight * 18;
-$container_height: 782px;
-$bg_bottom: ($container_height - $bg_top) + $section_vertical_padding;
+.home_main {
+	position: relative;
+	z-index: 3;
+	padding-bottom: $section_vertical_padding;
+}
 
-.home_main__bg--top {
-	height: $bg_top;
+.home_main__video {
+	position: relative;
+	z-index: 10;
+	margin-top: -($header_bottom * 0.75);
 }
 
 .home_main__text__border{
+	padding-left: $section_vertical_padding;
+	padding-right: $section_vertical_padding;
 	@include addBorder($choc_brown, $left: true);
-}
-
-.home_main__bg--bottom {
-	height: $bg_bottom;
 }

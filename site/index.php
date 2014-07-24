@@ -10,9 +10,8 @@
     
 	<title>LIFE</title>
 
-	<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,400' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
+	<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,800' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,900' rel='stylesheet' type='text/css'>
     <!-- Bootstrap core CSS -->
     <link href="assets/css/main.css" rel="stylesheet">
 

@@ -4,18 +4,25 @@
 }
 
 .footer__text {
-		margin-top: $gridheight * 2;
+		margin-top: 0px;
 		margin-bottom: 0px;
+		line-height: 1.5;
 		font-family: $footer_font_family;
 		font-size: 18px;
 		color: $yellow;
+		padding-left: 0px;
+		padding-right: 0px;
 
 		> a {
-			color: $brown;
+			color: $beige;
 
 			&:hover {
 				text-decoration: none;
-				colour: $choc_brown;
+				color: $brown;
 			}
+		}
+
+		&.foot__text--right {
+			text-align: right;
 		}
 }

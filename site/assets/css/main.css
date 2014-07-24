@@ -8065,9 +8065,14 @@ button.close {
   background-color: #42110a;
 }
 
-/* line 2, ../scss/_body_text.scss */
+/* line 1, ../scss/_body_text.scss */
+p {
+  line-height: 1.5;
+}
+/* line 4, ../scss/_body_text.scss */
 p.body_text {
-  margin-top: 42px;
+  margin-top: 27px;
+  margin-bottom: 0px;
   font-family: "Raleway", sans-serif;
   font-weight: normal;
   font-size: 18px;
@@ -8162,120 +8167,132 @@ p.body_text {
   border-color: #f0e5b7;
 }
 
-/* line 3, ../scss/_header.scss */
-.header__content {
-  height: 174px;
-  border-bottom: 3px solid #f0e5b7;
+/* line 1, ../scss/_header.scss */
+.header__background {
+  position: relative;
+  z-index: 3;
+  padding-top: 256px;
+  padding-bottom: 160px;
 }
 
 /* line 8, ../scss/_header.scss */
-.header__ceiling {
-  height: 256px;
+.header__content {
+  padding-bottom: 48px;
+  border-bottom: 3px solid #f0e5b7;
 }
 
-/* line 12, ../scss/_header.scss */
-.header__floor {
-  height: 46px;
-}
-
-/* line 14, ../scss/_headings.scss */
-h1.heading,
-h2.heading,
-h3.heading,
-h4.heading,
-h5.heading {
+/* line 12, ../scss/_headings.scss */
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-family: "Source Code Pro", "Lucida Grande", sans-serif;
   font-weight: 200;
 }
 
-/* line 22, ../scss/_headings.scss */
-h1.heading {
+/* line 18, ../scss/_headings.scss */
+h1 {
   font-size: 54px;
-  color: #ffde38;
+  color: #42110a;
 }
 
-/* line 28, ../scss/_headings.scss */
-h2.heading {
+/* line 24, ../scss/_headings.scss */
+h2 {
   font-size: 45px;
-  color: #ffde38;
+  color: #42110a;
 }
 
-/* line 35, ../scss/_headings.scss */
-h3.heading {
+/* line 29, ../scss/_headings.scss */
+h3 {
   font-size: 36px;
-  color: #5b4937;
+  color: #42110a;
 }
-/* line 40, ../scss/_headings.scss */
+/* line 34, ../scss/_headings.scss */
 h3.nav {
   color: #ffde38;
 }
 
-/* line 46, ../scss/_headings.scss */
-h4.heading {
+/* line 39, ../scss/_headings.scss */
+h4 {
   font-size: 27px;
-  color: #f0e5b7;
+  color: #42110a;
 }
 
-/* line 52, ../scss/_headings.scss */
+/* line 43, ../scss/_headings.scss */
 .countdown {
-  font-family: "Lucida Grande", sans-serif;
+  font-family: "Source Code Pro", "Lucida Grande", sans-serif;
   color: #ffde38;
   text-align: center;
 }
-/* line 57, ../scss/_headings.scss */
+/* line 48, ../scss/_headings.scss */
 .countdown.countdown__container {
   border-left: 3px solid #f0e5b7;
   height: 132px;
 }
-/* line 62, ../scss/_headings.scss */
+/* line 53, ../scss/_headings.scss */
 .countdown.countdown__title {
   font-size: 45px;
-  font-weight: bold;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  font-weight: 300;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
-/* line 69, ../scss/_headings.scss */
+/* line 60, ../scss/_headings.scss */
 .countdown.countdown__counter {
   font-size: 36px;
+  font-weight: 300;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 6, ../scss/_home_main.scss */
-.home_main__bg--top {
-  height: 126px;
+/* line 1, ../scss/_home_main.scss */
+.home_main {
+  position: relative;
+  z-index: 3;
+  padding-bottom: 48px;
 }
 
-/* line 10, ../scss/_home_main.scss */
+/* line 7, ../scss/_home_main.scss */
+.home_main__video {
+  position: relative;
+  z-index: 10;
+  margin-top: -120px;
+}
+
+/* line 13, ../scss/_home_main.scss */
 .home_main__text__border {
+  padding-left: 48px;
+  padding-right: 48px;
   border-left: 3px solid #42110a;
-}
-
-/* line 14, ../scss/_home_main.scss */
-.home_main__bg--bottom {
-  height: 698px;
 }
 
 /* line 1, ../scss/_footer.scss */
 .footer__text__container {
-  margin-top: 56px;
-  margin-bottom: 56px;
+  margin-top: 54px;
+  margin-bottom: 54px;
 }
 
 /* line 6, ../scss/_footer.scss */
 .footer__text {
-  margin-top: 14px;
+  margin-top: 0px;
   margin-bottom: 0px;
-  font-family: "Lucida Grande", sans-serif;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   color: #ffde38;
-}
-/* line 13, ../scss/_footer.scss */
-.footer__text > a {
-  color: #5b4937;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 /* line 16, ../scss/_footer.scss */
+.footer__text > a {
+  color: #f0e5b7;
+}
+/* line 19, ../scss/_footer.scss */
 .footer__text > a:hover {
   text-decoration: none;
-  colour: #42110a;
+  color: #5b4937;
+}
+/* line 25, ../scss/_footer.scss */
+.footer__text.foot__text--right {
+  text-align: right;
 }

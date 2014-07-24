@@ -1,14 +1,11 @@
-$header_height: $logo_height + $section_vertical_padding;
+.header__background{
+	position: relative;
+	z-index: 3;
+	padding-top: $header_top;
+	padding-bottom: $header_bottom;
+}
 
 .header__content {
-	height: $header_height; 
+	padding-bottom: $section_vertical_padding;
 	@include addBorder($beige, $bottom: true);
-}
-
-.header__ceiling {
-	height: 256px;
-}
-
-.header__floor {	
-	height: 46px;
 }
