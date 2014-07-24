@@ -1,15 +1,7 @@
-footer{
-	//margin-top: $gridheight * 6;
-}
-
 .footer__text__container {
 	margin-top: $baseline*2;
 	margin-bottom: $baseline*2;
 }
-
-// .footer__text:first-child {
-// 	margin-top: 0px;
-// }
 
 .footer__text {
 		margin-top: $gridheight * 2;
@@ -17,4 +9,13 @@ footer{
 		font-family: $footer_font_family;
 		font-size: 18px;
 		color: $yellow;
+
+		> a {
+			color: $brown;
+
+			&:hover {
+				text-decoration: none;
+				colour: $choc_brown;
+			}
+		}
 }

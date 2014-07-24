@@ -1,8 +1,8 @@
-$header_height: $logo_height + 50px;
+$header_height: $logo_height + $section_vertical_padding;
 
 .header__content {
 	height: $header_height; 
-	@include addBorder($borderColor: $beige, $bottom: true);
+	@include addBorder($beige, $bottom: true);
 }
 
 .header__ceiling {

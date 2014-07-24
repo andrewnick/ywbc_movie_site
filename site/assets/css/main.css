@@ -8164,7 +8164,7 @@ p.body_text {
 
 /* line 3, ../scss/_header.scss */
 .header__content {
-  height: 182px;
+  height: 174px;
   border-bottom: 3px solid #f0e5b7;
 }
 
@@ -8178,7 +8178,7 @@ p.body_text {
   height: 46px;
 }
 
-/* line 15, ../scss/_headings.scss */
+/* line 14, ../scss/_headings.scss */
 h1.heading,
 h2.heading,
 h3.heading,
@@ -8188,85 +8188,94 @@ h5.heading {
   font-weight: 200;
 }
 
-/* line 23, ../scss/_headings.scss */
+/* line 22, ../scss/_headings.scss */
 h1.heading {
   font-size: 54px;
   color: #ffde38;
 }
 
-/* line 29, ../scss/_headings.scss */
+/* line 28, ../scss/_headings.scss */
 h2.heading {
   font-size: 45px;
   color: #ffde38;
 }
 
-/* line 36, ../scss/_headings.scss */
+/* line 35, ../scss/_headings.scss */
 h3.heading {
   font-size: 36px;
   color: #5b4937;
 }
-/* line 41, ../scss/_headings.scss */
+/* line 40, ../scss/_headings.scss */
 h3.nav {
   color: #ffde38;
 }
 
-/* line 47, ../scss/_headings.scss */
+/* line 46, ../scss/_headings.scss */
 h4.heading {
   font-size: 27px;
   color: #f0e5b7;
 }
 
-/* line 53, ../scss/_headings.scss */
+/* line 52, ../scss/_headings.scss */
 .countdown {
   font-family: "Lucida Grande", sans-serif;
   color: #ffde38;
   text-align: center;
 }
-/* line 58, ../scss/_headings.scss */
+/* line 57, ../scss/_headings.scss */
 .countdown.countdown__container {
   border-left: 3px solid #f0e5b7;
   height: 132px;
 }
-/* line 63, ../scss/_headings.scss */
+/* line 62, ../scss/_headings.scss */
 .countdown.countdown__title {
   font-size: 45px;
   font-weight: bold;
   margin-top: 15px;
   margin-bottom: 15px;
 }
-/* line 70, ../scss/_headings.scss */
+/* line 69, ../scss/_headings.scss */
 .countdown.countdown__counter {
   font-size: 36px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 1, ../scss/_home_main.scss */
+/* line 6, ../scss/_home_main.scss */
 .home_main__bg--top {
-  height: 120px;
+  height: 126px;
 }
 
-/* line 5, ../scss/_home_main.scss */
+/* line 10, ../scss/_home_main.scss */
 .home_main__text__border {
   border-left: 3px solid #42110a;
 }
 
-/* line 9, ../scss/_home_main.scss */
+/* line 14, ../scss/_home_main.scss */
 .home_main__bg--bottom {
-  height: 1000px;
+  height: 698px;
 }
 
-/* line 5, ../scss/_footer.scss */
+/* line 1, ../scss/_footer.scss */
 .footer__text__container {
   margin-top: 56px;
   margin-bottom: 56px;
 }
 
-/* line 14, ../scss/_footer.scss */
+/* line 6, ../scss/_footer.scss */
 .footer__text {
   margin-top: 14px;
   margin-bottom: 0px;
   font-family: "Lucida Grande", sans-serif;
   font-size: 18px;
   color: #ffde38;
+}
+/* line 13, ../scss/_footer.scss */
+.footer__text > a {
+  color: #5b4937;
+}
+/* line 16, ../scss/_footer.scss */
+.footer__text > a:hover {
+  text-decoration: none;
+  colour: #42110a;
 }
