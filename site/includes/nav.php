@@ -1,16 +1,18 @@
 <?php
 
 	$pages = array();
-
+	
+	$pages['home'];
 	$pages['tickets'] ='Tickets';
 	$pages['filmmakers'] = 'Filmmakers';
-	$pages['news'] = 'News';	
+	$pages['news'] = 'News';
+
 
 	function createNavFromArray($pages){
 	    $nav = '<nav><ul class="nav nav-pills nav-stacked nav__list header__nav">';
 
 	    foreach($pages as $slug => $pageName){
-    		$class = "active";
+    		$class = "inactive";
 
     		if(isset($_GET['pages']) == $slug ){
     			$class = "active";

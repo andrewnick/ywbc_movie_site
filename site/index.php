@@ -40,9 +40,27 @@
 	
 	<?php require_once ('includes/header.php'); ?>	
 
-	<?php require_once ('includes/home_main.php'); ?>
+	<?php 
 
-	<?php require_once ('includes/footer.php'); ?>
+      $page = $_GET['pages'];
+      $pageURI = "includes/content-".$page.".php";
+      
+      if(!isset($page)){
+
+        require_once ('includes/content-home.php');
+
+      }elseif(file_exists($pageURL)){
+
+           require_once ($pageURL);
+
+      }else {
+
+         require_once ('includes/content-404.php');
+
+      }
+  ?>
+
+  <?php require_once ('includes/footer.php'); ?>
 	
 
 	<!-- Bootstrap core JavaScript
