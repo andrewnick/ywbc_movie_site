@@ -8253,13 +8253,34 @@ h4 {
 }
 
 /* line 7, ../scss/_home_main.scss */
+video::-webkit-media-controls-panel {
+  background-color: rgba(91, 73, 55, 0.7);
+}
+
+/* line 11, ../scss/_home_main.scss */
+video::-webkit-media-controls-enclosure {
+  max-width: inherit;
+}
+
+/* line 15, ../scss/_home_main.scss */
+video::-webkit-media-controls-current-time-display {
+  font-family: "Raleway", sans-serif;
+}
+
+/* line 19, ../scss/_home_main.scss */
+video::-webkit-media-controls-play-button {
+  background-image: url("../../assets/media/icon_19281.svg");
+  background-size: 100%;
+}
+
+/* line 25, ../scss/_home_main.scss */
 .home_main__video {
   position: relative;
   z-index: 10;
   margin-top: -120px;
 }
 
-/* line 13, ../scss/_home_main.scss */
+/* line 31, ../scss/_home_main.scss */
 .home_main__text__border {
   padding-left: 48px;
   padding-right: 48px;

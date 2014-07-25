@@ -2,8 +2,8 @@
 
 		date_default_timezone_set('Pacific/Auckland');
 
-		$rDay = 1;
-		$rMonth = 8;
+		$rDay = 25;
+		$rMonth = 7;
 		$rYear = 2014;
 
 		$rHour = 16;
@@ -31,6 +31,5 @@
 
 	<article>
 		<h2 class='countdown countdown__title'> Countdown </h2>
-		<!-- <h3 class="countdown countdown_counter"> 15/02  12:35:24 </h3> -->
 		<h3 class="countdown countdown_counter"> <?php echo $timeUntilRelease;  ?></h3>
 	</article>

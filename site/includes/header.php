@@ -1,6 +1,7 @@
 <!-- Countdown timer - The Timer calculates the time until the release date of the movie -->
 
 <?php 
+		date_default_timezone_set('Pacific/Auckland');
 		// Time until release
 		$rDay = 1;
 		$rMonth = 8;
@@ -11,15 +12,12 @@
 		$rSecond = 0;
 
 		$releaseDate = new DateTime();
-		$releaseDate->setTimezone(new DateTimeZone('Pacific/Auckland'));
 		$releaseDate->setTimeStamp(mktime($rHour,$rMinute,$rSecond,$rMonth,$rDay,$rYear));
 
-
 		$currentTime = new DateTime();
-		$currentTime->setTimezone(new DateTimeZone('Pacific/Auckland'));
 		$currentTime->setTimeStamp(time());
 
-		$timeDifference = $currentTime->diff($releaseDate);
+		$timeDifference = $releaseDate->diff($currentTime);
 		$timeUntilRelease = $timeDifference->format('%d/%m %h:%i:%s') . "<br/>";
 ?>
 
@@ -27,7 +25,7 @@
 	<div class="header__background background--blue">
 		<div class="container header__content">
 			<div class="col-md-3">
-				<a href="index.php?pages=home"><img src="assets/media/Title.png" alt="LIFE Title"></a>
+				<a href="index.php"><img src="assets/media/Title.png" alt="LIFE Title"></a>
 			</div>
 			<div class="col-md-4">
 
