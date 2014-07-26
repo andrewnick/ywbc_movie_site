@@ -4,6 +4,24 @@
 	padding-bottom: $section_vertical_padding;
 }
 
+video::-webkit-media-controls-panel {
+	background-color: rgba($brown, 0.7);
+}
+
+video::-webkit-media-controls-enclosure {
+	max-width:inherit;
+}
+
+video::-webkit-media-controls-current-time-display {
+	font-family: $body_font_family;
+}
+
+video::-webkit-media-controls-play-button {
+	/// Remove 
+	background-image: url("../../assets/media/icon_19281.svg");
+	background-size: 100%;
+}
+
 .home_main__video {
 	position: relative;
 	z-index: 10;
