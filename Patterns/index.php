@@ -196,7 +196,24 @@
 			</div>
 		</div>
 	</div>
-	
+
+	<br/>		
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h1 class="panel-title">Separators</h1>
+					  </div>
+					  <div class="panel-body">
+					  	<?php require_once ('../site/includes/filmmakers_data.php'); ?>
+					  	<?php require_once ('includes/filmmakers.php'); ?>
+					  </div>
+				</div>					
+			</div>
+		</div>
+	</div>	
 
 	<!-- Bootstrap core JavaScript
     ================================================== -->
