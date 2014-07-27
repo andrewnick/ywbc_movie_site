@@ -8,23 +8,22 @@
 	<?php require_once ('includes/header.php'); ?>	
 
 	<?php 
+    
+      if(isset($_GET['pages'])){
+         
+         $page = $_GET['pages'];
+         $pageURI = "includes/content-".$page.".php";
 
-      $page = $_GET['pages'];
-      $pageURI = "includes/content-".$page.".php";
-      
-      if(!isset($page)){
+         if (file_exists($pageURI)) {
+            require_once ($pageURI);
+         }else {
+            require_once ('includes/content-404.php');
+         }
 
+      } else {
         require_once ('includes/content-home.php');
-
-      }elseif(file_exists($pageURI)){
-
-           require_once ($pageURI);
-
-      }else {
-
-         require_once ('includes/content-404.php');
-
-      }
+      }   
+       
   ?>
 
   <?php require_once ('includes/footer.php'); ?>

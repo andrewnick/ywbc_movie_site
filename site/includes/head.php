@@ -2,65 +2,58 @@
     
     $pages = array(
 
+    'home' => array(
+                'title' => 'LIFE',
+                'description' => 'Find out about Rod Blackhurst’s up and coming film LIFE.
+                                  Watch the trailer, learn about the cast and crew, sign up
+                                  to get up to get news about the film and buy tickets from
+                                  a location near you.'
+                ),
+
     'tickets' => array(
                 'title' =>'Tickets', 
-                'description' => 'This is the ticket description'
+                'description' => 'Buy tickets for Rob Blackhurst’s up and coming film LIFE.'
                 ), 
 
     'filmmakers' => array(
                 'title' =>'Filmmakers', 
-                'description' => 'This is the filmmakers description'
+                'description' => 'Learn about the cast and crew involved in the making of LIFE.'
                 ), 
 
     'news' => array(
                 'title' =>'News', 
-                'description' => 'This is the news description'
+                'description' => 'Sign up to our newsletter for the latest updates about the production and release of LIFE.'
                 ) 
     );
 
-    function generatePageTitle($pages){
-        $title = "";
+    function generatePageContent($reqContent, $pages){
+
+        $content = "";
 
         if(!isset($_GET['pages'])){
 
-           $title = 'LIFE';
+          $content = $pages['home'][$reqContent];
 
-        }elseif (array_key_exists($_GET['pages'], $pages)){
+        }elseif(array_key_exists($_GET['pages'], $pages)) {
 
-          $title = $pages[$_GET['pages']]['title'];
+          $content = $pages[$_GET['pages']][$reqContent];
 
         }
 
-        return $title;
+        return $content;
     }
-
-    // function generatePageDescription($reqContent){
-    //     $content = "";
-
-    //     if(!isset($_GET['pages'])){
-
-    //        $content = 'This is the ticket description';
-
-    //     }elseif (array_key_exists($_GET['pages'], $pages)){
-
-    //       $content = $pages[$_GET['pages']][$reqContent];
-
-    //     }
-
-    //     return $content;
-    // }
 
  ?>
 
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
+<meta name="description" content= <?php $description = generatePageContent('description', $pages); echo  '"'.$description.'"';?> >
 <meta name="author" content="">
-<link rel="icon" href="favicon.ico">
+<link rel="icon" href="assets/media/favicon.ico">
 
 <title>
-    <?php $title = generatePageTitle($pages);
+    <?php $title = generatePageContent('title', $pages);
           echo $title; ?>
 </title>
 
