@@ -23,10 +23,10 @@ function displayBio ($bioData) {
 }
 
 ?>
-<div class="filmmakers__container background--beige">
+<div class="content__container background--beige">
 	<div class="container">
 		<div class="row">
-			<h1 class="filmmakers__title col-md-12"> The Filmmakers </h1>
+			<h1 class="content__title col-md-12"> The Filmmakers </h1>
 		</div>
 
 		<section class= "filmmakers__container__section row">

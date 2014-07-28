@@ -213,6 +213,19 @@
 				</div>					
 			</div>
 		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h1 class="panel-title">News</h1>
+					  </div>
+					  <div class="panel-body">
+					  	<?php require_once ('includes/news.php'); ?>
+					  </div>
+				</div>					
+			</div>
+		</div>
 	</div>	
 
 	<!-- Bootstrap core JavaScript

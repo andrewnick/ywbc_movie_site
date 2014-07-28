@@ -34,3 +34,10 @@ $section_vertical_padding: $gridheight * 12; // Provides padding distance betwee
 //Header background settings
 $header_top: 256px;
 $header_bottom: $gridheight * 40 ;
+
+// Bootstrap overriden variables
+
+$input-border-focus: $blue;
+$btn-default-color: $blue;
+$btn-default-border: $blue;
+$border:blue;

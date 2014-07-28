@@ -20,17 +20,6 @@
 	margin-bottom: $gridheight * 18;
 }
 
-.filmmakers__container{
-	position: relative;
-	z-index: 10;
-	margin-top: -($header_bottom * 0.75);
-}
-
-.filmmakers__title {
-	text-align: center;
-	padding-top: $gridheight*5;
-}
-
 .filmmakers__additional {
 	text-align: center;
 }
