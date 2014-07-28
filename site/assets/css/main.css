@@ -8323,6 +8323,25 @@ video::-webkit-media-controls-current-time-display {
 }
 
 /* line 9, ../scss/_filmmakers.scss */
+.filmmakers__container__section {
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+/* line 17, ../scss/_filmmakers.scss */
+.filmmakers__container {
+  position: relative;
+  z-index: 10;
+  margin-top: -120px;
+}
+
+/* line 23, ../scss/_filmmakers.scss */
+.filmmakers__title {
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* line 28, ../scss/_filmmakers.scss */
 .filmmakers__additional {
   text-align: center;
 }

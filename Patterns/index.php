@@ -204,7 +204,7 @@
 			<div class="col-md-12">
 				<div class="panel panel-default">
 					  <div class="panel-heading">
-					    <h1 class="panel-title">Separators</h1>
+					    <h1 class="panel-title">Filmmakers</h1>
 					  </div>
 					  <div class="panel-body">
 					  	<?php require_once ('../site/includes/filmmakers_data.php'); ?>

@@ -6,6 +6,25 @@
 	margin-top: $gridheight * 12;
 }
 
+.filmmakers__container__section {
+	margin-top: $gridheight * 12;
+	margin-bottom: $gridheight * 12;
+}
+// .filmmakers__article__container:first-child {
+// 	margin-top: 0px;
+// }
+
+.filmmakers__container{
+	position: relative;
+	z-index: 10;
+	margin-top: -($header_bottom * 0.75);
+}
+
+.filmmakers__title {
+	text-align: center;
+	padding-top: $gridheight*5;
+}
+
 .filmmakers__additional {
 	text-align: center;
 }
