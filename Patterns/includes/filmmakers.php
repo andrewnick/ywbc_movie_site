@@ -10,8 +10,8 @@ function displayBio ($bioData) {
 		echo 	'<article class="filmmakers__article__container col-1-12">';
 		echo 		'<img src="'.$bio['picLink'].'"alt="Profile Pic" class="article__img col-md-3 col-md-offset-1">';
 		echo 		'<div class="col-md-8">';
-		echo 			'<h2 class="filmmakers_bio">'.$bio['name'].'</h2>';
-		echo 			'<h3>'.$cast['title'].'</h3>';
+		echo 			'<h3 class="filmmakers_bio">'.$bio['name'].'</h3>';
+		echo 			'<h4>'.$bio['title'].'</h4>';
 		echo 			'<p class="body_text">'.$bio['details'].'</p>';
 		echo 		'</div>';
 		echo 	'</article>';

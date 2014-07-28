@@ -6,13 +6,19 @@
 	margin-top: $gridheight * 12;
 }
 
+.filmmakers__article__container:nth-child(2) {
+	margin-top: 24px;
+}
+
 .filmmakers__container__section {
 	margin-top: $gridheight * 12;
 	margin-bottom: $gridheight * 12;
 }
-// .filmmakers__article__container:first-child {
-// 	margin-top: 0px;
-// }
+
+.filmmakers__container__section:last-child {
+	margin-top: $gridheight * 12;
+	margin-bottom: $gridheight * 18;
+}
 
 .filmmakers__container{
 	position: relative;
@@ -28,3 +34,9 @@
 .filmmakers__additional {
 	text-align: center;
 }
+
+.filmmakers__additional--title {
+	color: $blue;
+			
+}
+

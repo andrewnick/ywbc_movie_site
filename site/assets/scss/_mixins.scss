@@ -12,3 +12,9 @@
 	@if $right {border-right: $width solid  $borderColor};
 
 }
+
+// Adds the following properties to element
+@mixin fontSizeColour($sz, $fontColour){
+	font-size: $sz;
+	color: $fontColour;
+}

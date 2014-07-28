@@ -7,6 +7,14 @@ p {
 		font-family: $body_font_family;
 		font-weight: $body_font_weight;
 		font-size: $body_font_size;
-		color: $choc_brown;
+		color: $brown;
+	}
+
+	&.filmmakers__additional {
+
+		font-size:27px;
+		color: $brown;
+		font-family: $header_font_family;
+		font-weight: $header_font_weight;
 	}
 }

@@ -11,10 +11,9 @@
 		'bio2' => array (	'picLink'	=> '../site/assets/media/man_2.jpg',
 							'name'		=> 'Steve Lemme',
 							'title'		=> 'Unknown Man',
-							'details'	=> 'Oh no way! Knocked the bastard off, this kiwi as kai moana is as stink as
-							 a stoked bloke. Mean while, in South Pacific, Cardigan Bay and Mrs Falani were up to no
-							 good with a bunch of same same but different keas. The primo force of his munting was on
-							 par with James Cook\'s heaps good cookie time.'),
+							'details'	=> 'The short film stars KEVIN HEFFERNAN and STEVE LEMME from Broken Lizard
+										whom we convinced to spend some quality time out in the desert with us
+										(you probably know Kevin and Steve\'s films SUPER TROOPERS and BEERFEST).'),
 	  ); 
 
 	$bioDataCrew = array( 

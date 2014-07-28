@@ -1,9 +1,6 @@
 // Headings
 
-@mixin fontSizeColour($sz, $fontColour){
-	font-size: $sz;
-	color: $fontColour;
-}
+
 
 h1,
 h2,
@@ -24,6 +21,10 @@ h1 {
 h2 {
 	@include fontSizeColour(45px, $choc_brown);
 
+	&.filmmakers__heading {
+		color: $brown;
+	}
+
 }
 
 h3 {
@@ -34,10 +35,24 @@ h3 {
 	&.nav {
 		color: $yellow;
 	}
+
+	&.filmmakers__heading {
+		color: $brown;
+	}
 }
 
 h4 {
 	@include fontSizeColour(27px, $choc_brown);
+
+	
+	&.filmmakers__heading{
+		color: $blue;
+	}
+
+	&.filmmakers__additional{
+		padding-top: $gridheight * 2;
+		padding-bottom: $gridheight * 2;
+	}
 }
 
 .countdown{
