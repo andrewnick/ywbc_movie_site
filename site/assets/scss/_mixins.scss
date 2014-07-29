@@ -18,3 +18,42 @@
 	font-size: $sz;
 	color: $fontColour;
 }
+
+// Create a button with site styling
+// padding-base-verticle and padding-base-horizontal are bootstrap defaults
+@mixin styleBtn() {
+ 
+  outline: none;
+  background-color: $brown;
+  color: $yellow;
+
+  &:default {
+    @include addBorder($light_brown, $width: 4px, $bottom: true);
+  }
+
+  &:active,
+  &.active {
+    border: none;
+    outline: none;
+    @include addBorder($light_brown, $width: 4px, $top: true, $bottom: false);
+    @include addBorder($brown, $width: 1px, $left: true, $right: true); 
+    color: $beige;
+
+    &:focus {
+      color: $beige;
+      outline: none;
+    }
+    
+  }
+
+  &:hover {
+    color: $beige;
+  }
+
+  &:focus {
+      color: $yellow;
+      outline: thin dotted;
+      outline: 3px auto $brown;
+      outline-offset: -2px;
+  }
+}

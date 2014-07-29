@@ -1,10 +1,12 @@
+$news_btn_padding_horizontal: 50px;
+
 .news__form__label{
 
 	font-family: $header_font_family;
 	font-weight: $header_font_weight;
 	font-size: 36px;
 	margin-top: -2px;
-  color: $brown;
+  	color: $brown;
 
   &.news_form_label_name_email {
     text-align: left;
@@ -19,50 +21,19 @@
 }
 
 .news__form__container{
-  min-height: 380px;
+  	min-height: 380px;
 	padding-top: $gridheight * 18;
 	padding-bottom: $gridheight * 18;
 }
 
 .news__form__btn {
-  outline: none;
-  background-color: $brown;
-  color: $yellow;
-  margin-top: $gridheight * 4;
-  margin-left: 0px;
+	
+  @include styleBtn();
+  @include button-size($padding-base-vertical, $news_btn_padding_horizontal, 36px, 1.47, 5px);
+	
+	margin-top: $gridheight * 4;
+	margin-left: 0px;
 
-  @include button-size($padding-base-vertical, $button_padding_horizontal, 36px, 1.47, 5px);
-
-  &:default {
-    @include addBorder($light_brown, $width: 4px, $bottom: true);
-  }
-
-  &:active,
-  &.active {
-    border: none;
-    outline: none;
-    @include addBorder($light_brown, $width: 4px, $top: true, $bottom: false);
-    @include addBorder($brown, $width: 1px, $left: true, $right: true); 
-    color: $beige;
-
-    &:focus {
-      color: $beige;
-      outline: none;
-    }
-    
-  }
-
-  &:hover {
-    color: $beige;
-  }
-
-  &:focus {
-      color: $yellow;
-      outline: thin dotted;
-      outline: 3px auto $brown;
-      outline-offset: -2px;
-  }
-  
 }
 
 .news__success__container {

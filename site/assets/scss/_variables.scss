@@ -37,10 +37,7 @@ $header_top: 256px;
 $header_bottom: $gridheight * 40 ;
 
 // Bootstrap overriden variables
-$input-border-focus: $blue;
-$btn-default-color: $blue;
-$btn-default-border: $blue;
-$border: $blue;
+//$input-border-focus: $blue;
 
-$button_padding_horizontal: 50px;
-$button_padding_vertical: $gridheight * 3;
+// Glyphicons location visible to scss compiler
+$icon-font-path: "../../bootstrap/assets/fonts/bootstrap/";

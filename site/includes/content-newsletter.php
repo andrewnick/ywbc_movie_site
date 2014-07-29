@@ -24,30 +24,33 @@
 			<div class="row">
 				<h4 class="content__description col-md-8 col-md-offset-2">Sign up to our newsletter for the latest updates about the production and release of LIFE!</h4>
 			</div>
+		
 		</div>
 
 
-		<form class="form-horizontal news__form__container col-md-offset-3" role="form" action="" method="post">
-			<div class="form-group form-group-lg ">
-				<label for="nameInput" class="col-md-2 news__form__label news_form_label_name_email">Name</label> 
-				<div class="col-md-5">
-					<input type="text" class="form-control news__form__input" name="name" id="nameInput" placeholder='Enter name'>
+			<form class="form-horizontal news__form__container col-md-offset-3" role="form" action="" method="post">
+				<div class="form-group form-group-lg ">
+					<label for="nameInput" class="col-md-2 news__form__label news_form_label_name_email">Name</label> 
+					<div class="col-md-5">
+						<input type="text" class="form-control news__form__input" name="name" id="nameInput" placeholder='Enter name'>
+					</div>
 				</div>
-			</div>
 
-			<div class="form-group form-group-lg">
-				<label for="emailInput" class="col-md-2 news__form__label news_form_label_name_email">Email</label>
-				<div class="col-md-5">
-					<input type="email" class="form-control news__form__input" id="emailInput" name="email" placeholder="Enter email">
+				<div class="form-group form-group-lg">
+					<label for="emailInput" class="col-md-2 news__form__label news_form_label_name_email">Email</label>
+					<div class="col-md-5">
+						<input type="email" class="form-control news__form__input" id="emailInput" name="email" placeholder="Enter email">
+					</div>
 				</div>
-			</div>
 
-			<div class="form-group form-group-lg">
-				<div class="col-md-3 col-md-offset-2">
-					<button type="submit" class="btn news__form__label news__form__btn">Sign Up</button>
+				<div class="form-group form-group-lg">
+					<div class="col-md-3 col-md-offset-2">
+						<button type="submit" class="btn news__form__label news__form__btn">Sign Up</button>
+					</div>
 				</div>
-			</div>
-		</form>
+			</form>
+
+
 
 	<?php endif ?>
 </div>
