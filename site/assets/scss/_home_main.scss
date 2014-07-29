@@ -5,23 +5,19 @@
 }
 
 video::-webkit-media-controls-panel {
-	background-color: rgba($brown, 0.7);
+	background-color: rgba($brown, 0.4);
 }
 
 video::-webkit-media-controls-enclosure {
 	max-width:inherit;
 }
 
-video::-webkit-media-controls-current-time-display {
-	font-family: $body_font_family;
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display
+ {
+	font-family: $header_font_family;
+	font-weight: $header_font_weight;
 }
-
-// video::-webkit-media-controls-play-button {
-// 	// Remove 
-// 	background-image: url("../../assets/media/icon_19281.svg");
-// 	background-size: 100%;
-// 	-webkit-appearance: none;
-// }
 
 .home_main__video {
 	position: relative;

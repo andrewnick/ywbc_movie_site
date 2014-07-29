@@ -4,6 +4,7 @@ $yellow: #ffde38;
 $beige: #f0e5b7;
 $brown: #5b4937;
 $choc_brown: #42110a;
+$light_brown: #a48463;	
 
 // Array of colours
 $movieColours: blue $blue, yellow $yellow, beige $beige, brown $brown, choc_brown $choc_brown;
@@ -36,8 +37,10 @@ $header_top: 256px;
 $header_bottom: $gridheight * 40 ;
 
 // Bootstrap overriden variables
-
 $input-border-focus: $blue;
 $btn-default-color: $blue;
 $btn-default-border: $blue;
-$border:blue;
+$border: $blue;
+
+$button_padding_horizontal: 50px;
+$button_padding_vertical: $gridheight * 3;

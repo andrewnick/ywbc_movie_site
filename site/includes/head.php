@@ -20,8 +20,8 @@
                 'description' => 'Learn about the cast and crew involved in the making of LIFE.'
                 ), 
 
-    'news' => array(
-                'title' =>'News', 
+    'newsletter' => array(
+                'title' =>'Newsletter', 
                 'description' => 'Sign up to our newsletter for the latest updates about the production and release of LIFE.'
                 ) 
     );
@@ -34,7 +34,7 @@
 
           $content = $pages['home'][$reqContent];
 
-        }elseif(array_key_exists($_GET['pages'], $pages)) {
+        } elseif(array_key_exists($_GET['pages'], $pages)) {
 
           $content = $pages[$_GET['pages']][$reqContent];
 

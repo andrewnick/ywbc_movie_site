@@ -15,15 +15,19 @@
          $pageURI = "includes/content-".$page.".php";
 
          if (file_exists($pageURI)) {
+
             require_once ($pageURI);
+
          }else {
+
             require_once ('includes/content-404.php');
          }
+         
+      } else {  
 
-      } else {
         require_once ('includes/content-home.php');
-      }   
-       
+
+      }       
   ?>
 
   <?php require_once ('includes/footer.php'); ?>

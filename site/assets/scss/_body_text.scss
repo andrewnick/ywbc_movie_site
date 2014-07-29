@@ -18,3 +18,15 @@ p {
 		font-weight: $header_font_weight;
 	}
 }
+
+.link_text {
+
+	text-decoration: none;
+	color: $blue;
+	
+
+	&:hover {
+		color: $blue;
+		text-decoration: underline;
+	}
+}

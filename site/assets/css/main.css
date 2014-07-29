@@ -8086,6 +8086,17 @@ p.filmmakers__additional {
   font-weight: 200;
 }
 
+/* line 22, ../scss/_body_text.scss */
+.link_text {
+  text-decoration: none;
+  color: #90a4a4;
+}
+/* line 28, ../scss/_body_text.scss */
+.link_text:hover {
+  color: #90a4a4;
+  text-decoration: underline;
+}
+
 /* line 1, ../scss/_nav.scss */
 .header__nav {
   font-family: "Source Code Pro", "Lucida Grande", sans-serif;
@@ -8201,13 +8212,13 @@ h5 {
 /* line 13, ../scss/_headings.scss */
 h1 {
   font-size: 54px;
-  color: #42110a;
+  color: #5b4937;
 }
 
 /* line 19, ../scss/_headings.scss */
 h2 {
   font-size: 45px;
-  color: #42110a;
+  color: #5b4937;
 }
 /* line 22, ../scss/_headings.scss */
 h2.filmmakers__heading {
@@ -8217,7 +8228,7 @@ h2.filmmakers__heading {
 /* line 28, ../scss/_headings.scss */
 h3 {
   font-size: 36px;
-  color: #42110a;
+  color: #5b4937;
 }
 /* line 33, ../scss/_headings.scss */
 h3.nav {
@@ -8231,7 +8242,7 @@ h3.filmmakers__heading {
 /* line 42, ../scss/_headings.scss */
 h4 {
   font-size: 27px;
-  color: #42110a;
+  color: #5b4937;
 }
 /* line 46, ../scss/_headings.scss */
 h4.filmmakers__heading {
@@ -8278,7 +8289,7 @@ h4.filmmakers__additional {
 
 /* line 7, ../scss/_home_main.scss */
 video::-webkit-media-controls-panel {
-  background-color: rgba(91, 73, 55, 0.7);
+  background-color: rgba(91, 73, 55, 0.4);
 }
 
 /* line 11, ../scss/_home_main.scss */
@@ -8286,19 +8297,21 @@ video::-webkit-media-controls-enclosure {
   max-width: inherit;
 }
 
-/* line 15, ../scss/_home_main.scss */
-video::-webkit-media-controls-current-time-display {
-  font-family: "Raleway", sans-serif;
+/* line 17, ../scss/_home_main.scss */
+video::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-time-remaining-display {
+  font-family: "Source Code Pro", "Lucida Grande", sans-serif;
+  font-weight: 200;
 }
 
-/* line 26, ../scss/_home_main.scss */
+/* line 22, ../scss/_home_main.scss */
 .home_main__video {
   position: relative;
   z-index: 10;
   margin-top: -120px;
 }
 
-/* line 32, ../scss/_home_main.scss */
+/* line 28, ../scss/_home_main.scss */
 .home_main__text__border {
   padding-left: 48px;
   padding-right: 48px;
@@ -8373,17 +8386,18 @@ video::-webkit-media-controls-current-time-display {
   color: #90a4a4;
 }
 
-/* line 2, ../scss/_news.scss */
+/* line 1, ../scss/_news.scss */
 .news__form__label {
   font-family: "Source Code Pro", "Lucida Grande", sans-serif;
   font-weight: 200;
   font-size: 36px;
   margin-top: -2px;
+  color: #5b4937;
 }
 /* line 9, ../scss/_news.scss */
-.news__form__label.news__form__btn {
-  margin-top: 0px;
-  margin-left: 0px;
+.news__form__label.news_form_label_name_email {
+  text-align: left;
+  padding-left: 48px;
 }
 
 /* line 15, ../scss/_news.scss */
@@ -8395,16 +8409,56 @@ video::-webkit-media-controls-current-time-display {
 
 /* line 21, ../scss/_news.scss */
 .news__form__container {
+  min-height: 380px;
   padding-top: 72px;
   padding-bottom: 72px;
 }
 
-/* line 54, ../scss/_news.scss */
-.btn:active, .btn.active {
-  outline: 0;
-  background-image: none;
-  -webkit-box-shadow: inset 0 3px 5px rgba(255, 0, 0, 0.125);
-  box-shadow: inset 0 3px 5px rgba(255, 0, 0, 0.125);
+/* line 27, ../scss/_news.scss */
+.news__form__btn {
+  outline: none;
+  background-color: #5b4937;
+  color: #ffde38;
+  margin-top: 16px;
+  margin-left: 0px;
+  padding: 6px 50px;
+  font-size: 36px;
+  line-height: 1.47;
+  border-radius: 5px;
+}
+/* line 36, ../scss/_news.scss */
+.news__form__btn:default {
+  border-bottom: 4px solid #a48463;
+}
+/* line 41, ../scss/_news.scss */
+.news__form__btn:active, .news__form__btn.active {
+  border: none;
+  outline: none;
+  border-top: 4px solid #a48463;
+  border-left: 1px solid #5b4937;
+  border-right: 1px solid #5b4937;
+  color: #f0e5b7;
+}
+/* line 48, ../scss/_news.scss */
+.news__form__btn:active:focus, .news__form__btn.active:focus {
+  color: #f0e5b7;
+  outline: none;
+}
+/* line 55, ../scss/_news.scss */
+.news__form__btn:hover {
+  color: #f0e5b7;
+}
+/* line 59, ../scss/_news.scss */
+.news__form__btn:focus {
+  color: #ffde38;
+  outline: thin dotted;
+  outline: 3px auto #5b4937;
+  outline-offset: -2px;
+}
+
+/* line 68, ../scss/_news.scss */
+.news__success__container {
+  padding-bottom: 48px;
 }
 
 /* line 1, ../scss/_content.scss */
