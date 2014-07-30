@@ -19,6 +19,7 @@
 
 .tickets__result__background {
 	padding: ($gridheight) 15px ($gridheight*2);
+
 	
 	&.enable_search {
 		&:hover {
@@ -33,6 +34,8 @@
 
 .tickets__result__premiere {
 
+	//background-color: rgba( lighten($beige, 10%) , 0.5);
+
 	&.tickets__result__premiere__disable {
 		display: none;
 	}
@@ -46,6 +49,7 @@
 
 .tickets__search__container {
 	padding-right: 30px;
+
 }
 
 .tickets__map__form__btn {

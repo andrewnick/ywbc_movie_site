@@ -17,33 +17,35 @@
 				<div class="col-md-4 tickets__search__container">
 					<section>
 						<!-- Search tool bar -->
-						<div class="row">
-							<div class="tickets__search col-md-12">
-								<form role="form" action="#map" method="post" id="searchPanel">
-								    <div class="input-group input-group-lg">
-								      <input type="text" name="search" id="searchInput" placeholder="Search" class="form-control tickets__form__input">
-								      <span class="input-group-btn">
-								        <button class="btn btn-default tickets__map__form__btn" id="searchButton" type="submit" disabled><span class="glyphicon glyphicon-search"></span></button>
-								      </span>
-								    </div><!-- /input-group -->					  
-								</form>
-							</div><!-- /.col-lg-6 -->
-						</div>
+	<!-- 						<div class="row">
+								<div class="tickets__search col-md-12">
+									<form role="form" action="#map" method="post" id="searchPanel">
+									    <div class="input-group input-group-lg">
+									      <input type="text" name="search" id="searchInput" placeholder="Search" class="form-control tickets__form__input" disabled>
+									      <span class="input-group-btn">
+									        <button class="btn btn-default tickets__map__form__btn" id="searchButton" type="submit" disabled><span class="glyphicon glyphicon-search"></span></button>
+									      </span>
+									    </div>		  
+									</form>
+								</div>
+							</div> -->
 					
 						<!-- Search result -->
-						<div class="row">
+<!-- 						<div class="row">
 							<article class="col-md-12 tickets__result__border" >
 								<div class="tickets__result__background">
 									<h4 class="tickets__result__title"> Hoyts Cinema </h4>
 									<p class="body_text tickets__result__link"><a class="link_text" href="http://www.hoyts.co.nz/cinemas/locations/hoyts_riccarton.aspx" >Buy Tickets</a></p>
 								</div>
 							</article>
-						</div>
+						</div> -->
 
 						<div class="row tickets__result__premiere">
 							<article class="col-md-12" >
 								<div class="tickets__result__background">
-									<p class="body_text tickets__result__premiere__notice"> Join us at Hoyts for the premiere of LIFE!</p>	
+									<p class="body_text tickets__result__premiere__notice"> Join us at Hoyts Riccarton for the premiere of LIFE!</p>
+									<p class="body_text tickets__result__premiere__notice tickets__result__link"><a class="link_text" href="http://www.hoyts.co.nz/cinemas/locations/hoyts_riccarton.aspx" >Buy Tickets</a></p>
+									<p class="body_text">Please return after the premiere to find a screening near you</p> 
 								</div>
 							</article>
 						</div>
@@ -63,13 +65,13 @@
 						?>
 
 							<iframe   class="embed-responsive-item" 
-						  		src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBS0N0dpiNp-SYnIaH-8ojcyAws1SxYsTg&q=<?php echo $searchResult;?>">
+						  		src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBS0N0dpiNp-SYnIaH-8ojcyAws1SxYsTg&q=<?php echo $searchResult;?>&zoom=13">
 							</iframe>	
 
 						<?php else :?>
 
 							<iframe   class="embed-responsive-item"
-						  		src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBS0N0dpiNp-SYnIaH-8ojcyAws1SxYsTg&q=<?php echo $searchResultDefault;?>">
+						  		src="https://www.google.com/maps/embed/v1/search?key=AIzaSyBS0N0dpiNp-SYnIaH-8ojcyAws1SxYsTg&q=<?php echo $searchResultDefault;?>&zoom=13">
 							</iframe>	
 
 						<?php endif ?>

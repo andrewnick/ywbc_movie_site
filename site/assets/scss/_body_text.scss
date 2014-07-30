@@ -14,7 +14,6 @@ p {
 		}	
 
 		&.tickets__result__premiere__notice {
-			text-align: center;
 			font-size: 27px;
 		}
 	}
@@ -31,11 +30,11 @@ p {
 .link_text {
 
 	text-decoration: none;
-	color: $blue;
+	color: darken($yellow, 20%);
 	
 
 	&:hover {
-		color: $blue;
+		color: darken($yellow, 20%);
 		text-decoration: underline;
 	}
 }
