@@ -8078,7 +8078,16 @@ p.body_text {
   font-size: 18px;
   color: #5b4937;
 }
-/* line 13, ../scss/_body_text.scss */
+/* line 12, ../scss/_body_text.scss */
+p.body_text.tickets__result__link {
+  margin-top: 8px;
+}
+/* line 16, ../scss/_body_text.scss */
+p.body_text.tickets__result__premiere__notice {
+  text-align: center;
+  font-size: 27px;
+}
+/* line 22, ../scss/_body_text.scss */
 p.filmmakers__additional {
   font-size: 27px;
   color: #5b4937;
@@ -8086,15 +8095,20 @@ p.filmmakers__additional {
   font-weight: 200;
 }
 
-/* line 22, ../scss/_body_text.scss */
+/* line 31, ../scss/_body_text.scss */
 .link_text {
   text-decoration: none;
   color: #90a4a4;
 }
-/* line 28, ../scss/_body_text.scss */
+/* line 37, ../scss/_body_text.scss */
 .link_text:hover {
   color: #90a4a4;
   text-decoration: underline;
+}
+
+/* line 43, ../scss/_body_text.scss */
+.tickets__result__link {
+  margin-top: 8px;
 }
 
 /* line 1, ../scss/_nav.scss */
@@ -8185,7 +8199,7 @@ p.filmmakers__additional {
   border-color: #f0e5b7;
 }
 
-/* line 1, ../scss/_header.scss */
+/* line 10, ../scss/_header.scss */
 .header__background {
   position: relative;
   z-index: 3;
@@ -8193,7 +8207,7 @@ p.filmmakers__additional {
   padding-bottom: 160px;
 }
 
-/* line 8, ../scss/_header.scss */
+/* line 17, ../scss/_header.scss */
 .header__content {
   padding-bottom: 48px;
   border-bottom: 3px solid #f0e5b7;
@@ -8253,26 +8267,30 @@ h4.filmmakers__additional {
   padding-top: 8px;
   padding-bottom: 8px;
 }
+/* line 55, ../scss/_headings.scss */
+h4.tickets__result__title {
+  margin-top: 0px;
+}
 
-/* line 56, ../scss/_headings.scss */
+/* line 60, ../scss/_headings.scss */
 .countdown {
   font-family: "Source Code Pro", "Lucida Grande", sans-serif;
   color: #ffde38;
   text-align: center;
 }
-/* line 61, ../scss/_headings.scss */
+/* line 65, ../scss/_headings.scss */
 .countdown.countdown__container {
   border-left: 3px solid #f0e5b7;
   height: 132px;
 }
-/* line 66, ../scss/_headings.scss */
+/* line 70, ../scss/_headings.scss */
 .countdown.countdown__title {
   font-size: 45px;
   font-weight: 300;
   margin-top: 16px;
   margin-bottom: 16px;
 }
-/* line 73, ../scss/_headings.scss */
+/* line 77, ../scss/_headings.scss */
 .countdown.countdown__counter {
   font-size: 36px;
   font-weight: 300;
@@ -8406,15 +8424,21 @@ video::-webkit-media-controls-time-remaining-display {
   font-size: normal;
   color: #5b4937;
 }
+/* line 22, ../scss/_news.scss */
+.news__form__input:focus {
+  outline: thin dotted;
+  outline: 3px auto #90a4a4;
+  outline-offset: -2px;
+}
 
-/* line 23, ../scss/_news.scss */
+/* line 29, ../scss/_news.scss */
 .news__form__container {
   min-height: 380px;
   padding-top: 72px;
   padding-bottom: 72px;
 }
 
-/* line 29, ../scss/_news.scss */
+/* line 35, ../scss/_news.scss */
 .news__form__btn {
   outline: none;
   background-color: #5b4937;
@@ -8428,9 +8452,10 @@ video::-webkit-media-controls-time-remaining-display {
 }
 /* line 30, ../scss/_mixins.scss */
 .news__form__btn:default {
+  background-color: #5b4937;
   border-bottom: 4px solid #a48463;
 }
-/* line 35, ../scss/_mixins.scss */
+/* line 36, ../scss/_mixins.scss */
 .news__form__btn:active, .news__form__btn.active {
   border: none;
   outline: none;
@@ -8439,16 +8464,16 @@ video::-webkit-media-controls-time-remaining-display {
   border-right: 1px solid #5b4937;
   color: #f0e5b7;
 }
-/* line 42, ../scss/_mixins.scss */
+/* line 43, ../scss/_mixins.scss */
 .news__form__btn:active:focus, .news__form__btn.active:focus {
   color: #f0e5b7;
   outline: none;
 }
-/* line 49, ../scss/_mixins.scss */
+/* line 50, ../scss/_mixins.scss */
 .news__form__btn:hover {
   color: #f0e5b7;
 }
-/* line 53, ../scss/_mixins.scss */
+/* line 54, ../scss/_mixins.scss */
 .news__form__btn:focus {
   color: #ffde38;
   outline: thin dotted;
@@ -8456,7 +8481,7 @@ video::-webkit-media-controls-time-remaining-display {
   outline-offset: -2px;
 }
 
-/* line 39, ../scss/_news.scss */
+/* line 45, ../scss/_news.scss */
 .news__success__container {
   padding-bottom: 48px;
 }
@@ -8480,44 +8505,94 @@ video::-webkit-media-controls-time-remaining-display {
   padding-top: 20px;
 }
 
-/* line 1, ../scss/_map.scss */
-.map__form__btn {
+/* line 1, ../scss/_tickets.scss */
+.tickets__search {
+  padding: 12px 0px 0px 0px;
+  margin-bottom: 12px;
+}
+
+/* line 8, ../scss/_tickets.scss */
+.tickets__form__input:focus {
+  outline: thin dotted;
+  outline: 3px auto #90a4a4;
+  outline-offset: -2px;
+}
+
+/* line 15, ../scss/_tickets.scss */
+.tickets__result__border {
+  padding-bottom: 12px;
+  border-bottom: 3px solid #5b4937;
+}
+
+/* line 20, ../scss/_tickets.scss */
+.tickets__result__background {
+  padding: 4px 15px 8px;
+}
+/* line 24, ../scss/_tickets.scss */
+.tickets__result__background.enable_search:hover {
+  background: rgba(240, 229, 183, 0.4);
+}
+
+/* line 36, ../scss/_tickets.scss */
+.tickets__result__premiere.tickets__result__premiere__disable {
+  display: none;
+}
+
+/* line 41, ../scss/_tickets.scss */
+.tickets__locate__container {
+  padding: 12px;
+  margin-top: 24px;
+  border-top: 3px solid #5b4937;
+  border-left: 3px solid #5b4937;
+  border-bottom: 3px solid #5b4937;
+  border-right: 3px solid #5b4937;
+}
+
+/* line 47, ../scss/_tickets.scss */
+.tickets__search__container {
+  padding-right: 30px;
+}
+
+/* line 51, ../scss/_tickets.scss */
+.tickets__map__form__btn {
   outline: none;
   background-color: #5b4937;
   color: #ffde38;
 }
 /* line 30, ../scss/_mixins.scss */
-.map__form__btn:default {
-  border-bottom: 4px solid #a48463;
+.tickets__map__form__btn:default {
+  background-color: #5b4937;
+  border-bottom: 3px solid #a48463;
 }
-/* line 35, ../scss/_mixins.scss */
-.map__form__btn:active, .map__form__btn.active {
+/* line 36, ../scss/_mixins.scss */
+.tickets__map__form__btn:active, .tickets__map__form__btn.active {
   border: none;
   outline: none;
-  border-top: 4px solid #a48463;
+  border-top: 3px solid #a48463;
   border-left: 1px solid #5b4937;
   border-right: 1px solid #5b4937;
   color: #f0e5b7;
 }
-/* line 42, ../scss/_mixins.scss */
-.map__form__btn:active:focus, .map__form__btn.active:focus {
+/* line 43, ../scss/_mixins.scss */
+.tickets__map__form__btn:active:focus, .tickets__map__form__btn.active:focus {
   color: #f0e5b7;
   outline: none;
 }
-/* line 49, ../scss/_mixins.scss */
-.map__form__btn:hover {
+/* line 50, ../scss/_mixins.scss */
+.tickets__map__form__btn:hover {
   color: #f0e5b7;
 }
-/* line 53, ../scss/_mixins.scss */
-.map__form__btn:focus {
+/* line 54, ../scss/_mixins.scss */
+.tickets__map__form__btn:focus {
   color: #ffde38;
   outline: thin dotted;
   outline: 3px auto #5b4937;
   outline-offset: -2px;
 }
 
-/* line 1, ../scss/_tickets.scss */
-.tickets__search {
-  margin-top: 24px;
-  margin-bottom: 24px;
+/* line 55, ../scss/_tickets.scss */
+.tickets__map__container {
+  padding-right: 0px;
+  border-left: 3px solid #5b4937;
+  margin-left: 0px;
 }

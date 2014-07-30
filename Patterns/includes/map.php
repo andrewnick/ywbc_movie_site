@@ -28,14 +28,13 @@
 		<div class="row">
 		  <div class="col-md-8">
 		    <div class="input-group input-group-lg">
-		      <input type="text" name="search" id="searchInput" placeholder="Search" class="form-control">
+		      <input type="text" name="search" id="searchInput" placeholder="Search" class="form-control ticket__map__form__input">
 		      <span class="input-group-btn">
-		        <button class="btn btn-default map__form__btn" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+		        <button class="btn btn-default ticket__map__form__btn" type="submit"><span class="glyphicon glyphicon-search"></span></button>
 		      </span>
 		    </div><!-- /input-group -->
 		  </div><!-- /.col-lg-6 -->
 		</div><!-- /.row -->
 	</form>
-
 </div>
 

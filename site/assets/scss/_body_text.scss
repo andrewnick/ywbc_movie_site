@@ -8,6 +8,15 @@ p {
 		font-weight: $body_font_weight;
 		font-size: $body_font_size;
 		color: $brown;
+
+		&.tickets__result__link {
+			margin-top: $gridheight * 2;
+		}	
+
+		&.tickets__result__premiere__notice {
+			text-align: center;
+			font-size: 27px;
+		}
 	}
 
 	&.filmmakers__additional {
@@ -29,4 +38,8 @@ p {
 		color: $blue;
 		text-decoration: underline;
 	}
+}
+
+.tickets__result__link {
+	margin-top: $gridheight * 2;
 }

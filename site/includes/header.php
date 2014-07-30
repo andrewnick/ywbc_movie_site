@@ -24,9 +24,11 @@
 <header>
 	<div class="header__background background--blue">
 		<div class="container header__content">
+
 			<div class="col-md-3">
-				<a href="index.php"><img src="assets/media/Title.png" alt="LIFE Title"></a>
+				<a href="index.php"><img src="assets/media/Title.png" alt="LIFE Title" class="header__title"></a>
 			</div>
+
 			<div class="col-md-4">
 
 				<?php require_once ('includes/nav.php'); ?>
@@ -37,6 +39,7 @@
 				<h2 class='countdown countdown__title'> Coming Soon </h2>
 				<h3 class="countdown countdown__counter"><?php echo $timeUntilRelease; ?></h3>				
 			</div>
+			
 		</div>
 	</div>
 </header>

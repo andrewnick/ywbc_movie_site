@@ -17,7 +17,13 @@ $news_btn_padding_horizontal: 50px;
 .news__form__input {
 		font-family: $body_font_family;
 		font-size: $body_font_weight;
-		color: $brown;	
+		color: $brown;
+
+		&:focus {
+			outline: thin dotted;
+      		outline: 3px auto $blue;
+      		outline-offset: -2px;
+		}
 }
 
 .news__form__container{

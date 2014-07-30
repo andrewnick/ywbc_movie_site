@@ -1,4 +1,60 @@
 .tickets__search {
+	padding: $gridheight * 3 0px 0px 0px;
+	margin-bottom: $gridheight * 3;
+}
+
+.tickets__form__input {
+
+	&:focus {
+		outline: thin dotted;
+  		outline: 3px auto $blue;
+  		outline-offset: -2px;
+	}
+}
+
+.tickets__result__border {
+	padding-bottom: $gridheight * 3;
+	@include addBorder($brown, $bottom: true);
+}
+
+.tickets__result__background {
+	padding: ($gridheight) 15px ($gridheight*2);
+	
+	&.enable_search {
+		&:hover {
+			background: rgba($beige, 0.4);
+		}
+	}
+}
+
+.tickets__result__premiere__notice{
+
+}
+
+.tickets__result__premiere {
+
+	&.tickets__result__premiere__disable {
+		display: none;
+	}
+}
+
+.tickets__locate__container { 
+	padding: $gridheight * 3;
 	margin-top: $gridheight * 6;
-	margin-bottom: $gridheight * 6;
+	@include addBorder($brown, 3px, true, true, true, true);
+}
+
+.tickets__search__container {
+	padding-right: 30px;
+}
+
+.tickets__map__form__btn {
+	  @include styleBtn(3px); 
+}
+
+.tickets__map__container{
+	//padding-left: 15px;
+	padding-right: 0px;
+	@include addBorder($brown, $left: true);
+	margin-left: 0px;
 }

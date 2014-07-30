@@ -21,21 +21,22 @@
 
 // Create a button with site styling
 // padding-base-verticle and padding-base-horizontal are bootstrap defaults
-@mixin styleBtn() {
+@mixin styleBtn($line_width: 4px) {
  
   outline: none;
   background-color: $brown;
   color: $yellow;
 
   &:default {
-    @include addBorder($light_brown, $width: 4px, $bottom: true);
+    background-color: $brown;
+    @include addBorder($light_brown, $width: $line_width, $bottom: true);
   }
 
   &:active,
   &.active {
     border: none;
     outline: none;
-    @include addBorder($light_brown, $width: 4px, $top: true, $bottom: false);
+    @include addBorder($light_brown, $width: $line_width, $top: true, $bottom: false);
     @include addBorder($brown, $width: 1px, $left: true, $right: true); 
     color: $beige;
 
@@ -56,4 +57,12 @@
       outline: 3px auto $brown;
       outline-offset: -2px;
   }
+}
+
+@mixin animation ($name, $duration, $count, $timing) {
+
+  -webkit-animation-name: $name;
+  -webkit-animation-duration: $duration;
+  -webkit-animation-iteration-count: $count;
+  -webkit-animation-timing-function: $timing;
 }
