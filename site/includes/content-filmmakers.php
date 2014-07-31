@@ -8,18 +8,19 @@
 
 function displayBio ($bioData) {
 
-		foreach ($bioData as $bio) : ?>
+		foreach ($bioData as $bio) : 
+?>
 			<div class="filmmakers__article__container row">
-				<article class="col-1-12">';
+				<article class="col-1-12">
 					<img src=" <?php echo $bio['picLink']; ?> "alt="Profile Pic" class="article__img col-md-3 col-md-offset-1">
 					<div class="col-md-8">
 						<h3 class="filmmakers_bio filmmakers__heading"><?php echo $bio['name']; ?></h3> 
-						<h4 class="filmmakers__heading"><?php echo $bio['title'] ?></h4>
-						<p class="body_text"><?php echo $bio['details']?> </p>
+						<h4 class="filmmakers__heading"><?php echo $bio['title']; ?></h4>
+						<p class="body_text"><?php echo $bio['details'];?> </p>
 					</div>
 				</article>
 			</div>
-  <?php endforeach;	
+<?php 	endforeach;	
 }
 
 ?>

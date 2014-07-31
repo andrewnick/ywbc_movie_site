@@ -1,4 +1,4 @@
-sq<div class="content__container background--beige">
+<div class="content__container background--beige">
 
 	<?php if(isset($_POST['name'])) : ?>
 

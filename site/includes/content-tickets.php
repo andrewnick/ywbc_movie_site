@@ -17,28 +17,26 @@
 				<div class="col-md-4 tickets__search__container">
 					<section>
 						<!-- Search tool bar -->
-	<!-- 						<div class="row">
+							<div class="row">
 								<div class="tickets__search col-md-12">
-									<form role="form" action="#map" method="post" id="searchPanel">
-									    <div class="input-group input-group-lg">
-									      <input type="text" name="search" id="searchInput" placeholder="Search" class="form-control tickets__form__input" disabled>
-									      <span class="input-group-btn">
-									        <button class="btn btn-default tickets__map__form__btn" id="searchButton" type="submit" disabled><span class="glyphicon glyphicon-search"></span></button>
-									      </span>
-									    </div>		  
-									</form>
+								    <div class="input-group input-group-lg">
+								      <input type="text" name="search" id="searchInput" placeholder="Search" class="form-control tickets__form__input">
+								      <span class="input-group-btn">
+								        <button class="btn btn-default tickets__map__form__btn" id="searchButton" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+								      </span>
+								    </div>		  
 								</div>
-							</div> -->
+							</div>
 					
 						<!-- Search result -->
-<!-- 						<div class="row">
+						<div class="row">
 							<article class="col-md-12 tickets__result__border" >
 								<div class="tickets__result__background">
 									<h4 class="tickets__result__title"> Hoyts Cinema </h4>
 									<p class="body_text tickets__result__link"><a class="link_text" href="http://www.hoyts.co.nz/cinemas/locations/hoyts_riccarton.aspx" >Buy Tickets</a></p>
 								</div>
 							</article>
-						</div> -->
+						</div>
 
 						<div class="row tickets__result__premiere">
 							<article class="col-md-12" >
@@ -54,9 +52,9 @@
 				</div>
 				
 				<!-- Embedded Google Map -->
-				<div class="col-md-8 tickets__map__container">
+				<!-- <div class="col-md-8 tickets__map__container"> -->
 					<!-- Google Map Frame -->
-					<div class="embed-responsive embed-responsive-4by3">
+<!-- 					<div class="embed-responsive embed-responsive-4by3">
 						<?php $searchResultDefault="christchurch+hoyts+riccarton" ?>
 
 						<?php if(isset($_POST['search']) && ($_POST['search'] != "")) :
@@ -75,8 +73,14 @@
 							</iframe>	
 
 						<?php endif ?>
+					</div> -->
+
+					<div class="col-md-8 tickets__map__container">
+						<div class="embed-responsive embed-responsive-4by3" id="map_canvas">
+
+						</div>
 					</div>
-				</div>
+				</div> 
 			</section>
 		</div>	
 	</section>

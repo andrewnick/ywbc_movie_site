@@ -62,10 +62,17 @@
 <!-- Bootstrap core CSS -->
 <link href="assets/css/main.css" rel="stylesheet">
 
-<!-- add Modernizr -->
-<script type="text/javascript" src="assets/js/vendor/modernizr-2.8.0.min.js"></script>
+
+
+
 <script type="text/javascript" src="assets/js/jquery.js"></script>
 <script type="text/javascript" src="assets/js/main.js"></script>
+
+<!-- Load google maps scripts -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+<script type="text/javascript" src="assets/js/map.js"></script>
+
+<script type="text/javascript" src="assets/js/vendor/modernizr-2.8.0.min.js"></script>
 
 <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!--[if lt IE 9]>
