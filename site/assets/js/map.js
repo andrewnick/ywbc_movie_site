@@ -11,11 +11,11 @@ var searchButton;
 var searchInput;
 
 
-$(document).ready(initialize);
+//$(document).ready(initialize);
 
 //google.maps.event.addDomListener(window, 'load', initialize);
 
-function initialize() {
+function initializeMaps() {
 
 	initLocation = new google.maps.LatLng(-43.5131315,172.5990772);
 

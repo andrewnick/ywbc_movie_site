@@ -15,6 +15,10 @@
 .tickets__result__border {
 	padding-bottom: $gridheight * 3;
 	@include addBorder($brown, $bottom: true);
+
+	&:last-child{
+		padding-top: $gridheight * 3;
+	}
 }
 
 .tickets__result__background {
@@ -23,7 +27,7 @@
 	
 	&.enable_search {
 		&:hover {
-			background: rgba($beige, 0.4);
+			background: rgba($beige, 0.6);
 		}
 	}
 }

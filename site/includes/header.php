@@ -37,7 +37,7 @@
 
 			<div class="countdown countdown__container col-md-5">
 				<h2 class='countdown countdown__title'> Coming Soon </h2>
-				<h3 class="countdown countdown__counter"><?php echo $timeUntilRelease; ?></h3>				
+				<h3 class="countdown countdown__counter" id="releaseDate"></h3>	 <!--		<?php echo $timeUntilRelease; ?>  -->
 			</div>
 			
 		</div>
