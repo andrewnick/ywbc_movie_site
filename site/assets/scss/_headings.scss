@@ -57,6 +57,15 @@ h4 {
 	}
 }
 
+h5 {
+	@include fontSizeColour(18px, $brown);
+
+	&.tickets__result__session__title{
+		font-weight: 400;
+	}
+}
+
+
 .countdown{
 	font-family: $count_font_family;
 	color: $yellow;

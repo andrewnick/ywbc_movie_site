@@ -8086,7 +8086,16 @@ p.body_text.tickets__result__link {
 p.body_text.tickets__result__premiere__notice {
   font-size: 27px;
 }
-/* line 21, ../scss/_body_text.scss */
+/* line 20, ../scss/_body_text.scss */
+p.body_text.tickets__result__session__day {
+  margin-top: 4px;
+  font-size: 16px;
+}
+/* line 25, ../scss/_body_text.scss */
+p.body_text.tickets__result__session__text__time {
+  color: #90a4a4;
+}
+/* line 30, ../scss/_body_text.scss */
 p.filmmakers__additional {
   font-size: 27px;
   color: #5b4937;
@@ -8094,18 +8103,18 @@ p.filmmakers__additional {
   font-weight: 200;
 }
 
-/* line 30, ../scss/_body_text.scss */
+/* line 39, ../scss/_body_text.scss */
 .link_text {
   text-decoration: none;
   color: #d1ae00;
 }
-/* line 36, ../scss/_body_text.scss */
+/* line 45, ../scss/_body_text.scss */
 .link_text:hover {
   color: #d1ae00;
   text-decoration: underline;
 }
 
-/* line 42, ../scss/_body_text.scss */
+/* line 53, ../scss/_body_text.scss */
 .tickets__result__link {
   margin-top: 8px;
 }
@@ -8272,24 +8281,34 @@ h4.tickets__result__title {
 }
 
 /* line 60, ../scss/_headings.scss */
+h5 {
+  font-size: 18px;
+  color: #5b4937;
+}
+/* line 63, ../scss/_headings.scss */
+h5.tickets__result__session__title {
+  font-weight: 400;
+}
+
+/* line 69, ../scss/_headings.scss */
 .countdown {
   font-family: "Source Code Pro", "Lucida Grande", sans-serif;
   color: #ffde38;
   text-align: center;
 }
-/* line 65, ../scss/_headings.scss */
+/* line 74, ../scss/_headings.scss */
 .countdown.countdown__container {
   border-left: 3px solid #f0e5b7;
   height: 132px;
 }
-/* line 70, ../scss/_headings.scss */
+/* line 79, ../scss/_headings.scss */
 .countdown.countdown__title {
   font-size: 45px;
   font-weight: 300;
   margin-top: 16px;
   margin-bottom: 16px;
 }
-/* line 77, ../scss/_headings.scss */
+/* line 86, ../scss/_headings.scss */
 .countdown.countdown__counter {
   font-size: 36px;
   font-weight: 300;
@@ -8591,7 +8610,7 @@ video::-webkit-media-controls-time-remaining-display {
 
 /* line 57, ../scss/_tickets.scss */
 .tickets__map__container {
-  padding-right: 0px;
   border-left: 3px solid #5b4937;
+  padding-right: 0px;
   margin-left: 0px;
 }

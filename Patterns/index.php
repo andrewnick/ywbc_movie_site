@@ -252,6 +252,19 @@
 				</div>					
 			</div>
 		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h1 class="panel-title">Session Times</h1>
+					  </div>
+					  <div class="panel-body">
+					  	<?php require_once ('includes/session_times.php'); ?>
+					  </div>
+				</div>					
+			</div>
+		</div>
 	</div>	
 
 	<!-- Bootstrap core JavaScript

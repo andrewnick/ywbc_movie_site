@@ -16,6 +16,15 @@ p {
 		&.tickets__result__premiere__notice {
 			font-size: 27px;
 		}
+
+		&.tickets__result__session__day{
+			margin-top: $gridheight;
+			font-size: 16px;
+		}
+
+		&.tickets__result__session__text__time{
+			color: $blue;
+		}
 	}
 
 	&.filmmakers__additional {
@@ -38,6 +47,8 @@ p {
 		text-decoration: underline;
 	}
 }
+
+
 
 .tickets__result__link {
 	margin-top: $gridheight * 2;

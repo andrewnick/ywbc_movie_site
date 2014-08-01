@@ -2,28 +2,28 @@
     
     $pages = array(
 
-    'home' => array(
-                'title' => 'LIFE',
-                'description' => 'Find out about Rod Blackhurst’s up and coming film LIFE.
-                                  Watch the trailer, learn about the cast and crew, sign up
-                                  to get up to get news about the film and buy tickets from
-                                  a location near you.'
-                ),
+      'home' => array(
+                  'title' => 'LIFE',
+                  'description' => 'Find out about Rod Blackhurst’s up and coming film LIFE.
+                                    Watch the trailer, learn about the cast and crew, sign up
+                                    to get up to get news about the film and buy tickets from
+                                    a location near you.'
+                  ),
 
-    'tickets' => array(
-                'title' =>'Tickets', 
-                'description' => 'Buy tickets for Rob Blackhurst’s up and coming film LIFE.'
-                ), 
+      'tickets' => array(
+                  'title' =>'Tickets', 
+                  'description' => 'Buy tickets for Rob Blackhurst’s up and coming film LIFE.'
+                  ), 
 
-    'filmmakers' => array(
-                'title' =>'Filmmakers', 
-                'description' => 'Learn about the cast and crew involved in the making of LIFE.'
-                ), 
+      'filmmakers' => array(
+                  'title' =>'Filmmakers', 
+                  'description' => 'Learn about the cast and crew involved in the making of LIFE.'
+                  ), 
 
-    'newsletter' => array(
-                'title' =>'Newsletter', 
-                'description' => 'Sign up to our newsletter for the latest updates about the production and release of LIFE.'
-                ) 
+      'newsletter' => array(
+                  'title' =>'Newsletter', 
+                  'description' => 'Sign up to our newsletter for the latest updates about the production and release of LIFE.'
+                  ) 
     );
 
     function generatePageContent($reqContent, $pages){

@@ -55,8 +55,8 @@
 }
 
 .tickets__map__container{
-	//padding-left: 15px;
-	padding-right: 0px;
+	//padding-left: 15px;	
 	@include addBorder($brown, $left: true);
+	padding-right: 0px;
 	margin-left: 0px;
 }
