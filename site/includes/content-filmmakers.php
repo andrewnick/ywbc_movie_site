@@ -32,7 +32,7 @@ function displayBio ($bioData) {
 
 		<section class= "filmmakers__container__section row">
 			<div class="row">				
-				<h2 class ='filmmakers__heading col-md-12'> Cast </h2>
+				<h2 class ='filmmakers__heading col-md-offset-1 col-md-11'> Cast </h2>
 			</div>
 			<?php 	$castBio = displayBio($bioDataCast);
 				 	echo $castBio; ?>
@@ -41,13 +41,12 @@ function displayBio ($bioData) {
 		<section class="filmmakers__container__section row">
 			
 			<div class="row">				
-				<h2 class ='filmmakers__heading col-md-12'> Crew </h2>
+				<h2 class ='filmmakers__heading col-md-offset-1 col-md-11'> Crew </h2>
 			</div>
 			
 			<?php 	$castBio = displayBio($bioDataCrew);
 				 	echo $castBio; ?>
-
-		 	
+				 		 	
 	 	</section>
 
 		<section class="filmmakers__container__section row">

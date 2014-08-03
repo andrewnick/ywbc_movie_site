@@ -1,7 +1,5 @@
 $(document).ready ( function(){
 
-	initializeMaps();
-
 	var releaseDate = new Date("25 August 2014").getTime();
 
 	var days,
@@ -25,10 +23,10 @@ $(document).ready ( function(){
 		minutes = parseInt(secondsLeft / 60);
 		seconds = parseInt(secondsLeft % 60);
 
-		console.log(days, hours,  minutes, seconds);
-
 		countdown.html(days + " Days " + hours + ":" + minutes + ":" + seconds);
 
 	}, 1000);
+
+	//initializeMaps();
 
 });

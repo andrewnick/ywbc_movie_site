@@ -8169,10 +8169,10 @@ p.filmmakers__additional {
 
 /* line 6, ../scss/_background.scss */
 .background--beige {
-  background-image: url("../../assets/media/main_bg.png");
+  background-color: #F7F1DA;
 }
 
-/* line 10, ../scss/_background.scss */
+/* line 11, ../scss/_background.scss */
 .background--blue {
   background-image: url("../../assets/media/header_bg.png");
 }

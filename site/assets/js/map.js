@@ -10,11 +10,6 @@ var infowindow;
 var searchButton;
 var searchInput;
 
-
-//$(document).ready(initialize);
-
-//google.maps.event.addDomListener(window, 'load', initialize);
-
 function initializeMaps() {
 
 	initLocation = new google.maps.LatLng(-43.5131315,172.5990772);
@@ -32,10 +27,6 @@ function initializeMaps() {
 	map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
 
 	infowindow = new google.maps.InfoWindow();
-
-	// service = new google.maps.places.PlacesService(map);
-	// service.textSearch(request, getSearchResultsCallback);
-	//service.nearbySearch(request, getSearchResultsCallback);
 }
 
 function performSearch(){

@@ -1,9 +1,9 @@
 <?php 
 	$currentDate = new DateTime();
 	$currentDate->setTimeStamp(time());
-	echo $currentDate->format('U = Y-m-d H:i:s') . "\n";
+	//echo $currentDate->format('U = Y-m-d H:i:s') . "\n";
 
-	$movie_sessions = array(
+	$movieSessions = array(
 			'Monday' =>	array('6:30pm'),
 			'Tuesday' =>	array('4:00pm', '5:40am'),
 			'Wednesday' =>	array('6:45pm', '7:40am'),
@@ -18,22 +18,23 @@
 
 	$currentDayName = $currentDate->format('l');
 
-	// Set both pointers to the start of the array;
+	// Set both pointers to the start of their arrays;
 	reset($nextFiveDays);
-	reset($movie_sessions);
+	reset($movieSessions);
 
 	// Movie moive times point to current day
-	while ( key($movie_sessions)!= $currentDayName){
-		next($movie_sessions);
+	while ( key($movieSessions)!= $currentDayName){
+		next($movieSessions);
 	}
 
 	for ($i=0; $i < 5; $i++) { 
 
-		if(($movieItem['key']) == "Sunday") {
-			reset($movie_sessions);
-		}
+		$movieItem = each($movieSessions);
 
-		$movieItem = each($movie_sessions);
+		if(($movieItem['key']) == "Sunday") {
+			reset($movieSessions);
+		}
+		
 		$nextFiveDays[$movieItem['key']] = $movieItem['value'];
 	}
 ?>
