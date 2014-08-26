@@ -25,14 +25,18 @@ p {
 		&.tickets__result__session__text__time{
 			color: $blue;
 		}
-	}
 
-	&.filmmakers__additional {
+		&.home_main_text {
+			margin-top: 50px;
+		}
 
-		font-size:27px;
-		color: $brown;
-		font-family: $header_font_family;
-		font-weight: $header_font_weight;
+		&.filmmakers__additional {
+
+			font-size:27px;
+			color: $brown;
+			font-family: $header_font_family;
+			font-weight: $header_font_weight;
+		}
 	}
 }
 

@@ -8095,26 +8095,30 @@ p.body_text.tickets__result__session__day {
 p.body_text.tickets__result__session__text__time {
   color: #90a4a4;
 }
-/* line 30, ../scss/_body_text.scss */
-p.filmmakers__additional {
+/* line 29, ../scss/_body_text.scss */
+p.body_text.home_main_text {
+  margin-top: 50px;
+}
+/* line 33, ../scss/_body_text.scss */
+p.body_text.filmmakers__additional {
   font-size: 27px;
   color: #5b4937;
   font-family: "Source Code Pro", "Lucida Grande", sans-serif;
   font-weight: 200;
 }
 
-/* line 39, ../scss/_body_text.scss */
+/* line 43, ../scss/_body_text.scss */
 .link_text {
   text-decoration: none;
   color: #d1ae00;
 }
-/* line 45, ../scss/_body_text.scss */
+/* line 49, ../scss/_body_text.scss */
 .link_text:hover {
   color: #d1ae00;
   text-decoration: underline;
 }
 
-/* line 53, ../scss/_body_text.scss */
+/* line 57, ../scss/_body_text.scss */
 .tickets__result__link {
   margin-top: 8px;
 }
@@ -8207,7 +8211,7 @@ p.filmmakers__additional {
   border-color: #f0e5b7;
 }
 
-/* line 10, ../scss/_header.scss */
+/* line 1, ../scss/_header.scss */
 .header__background {
   position: relative;
   z-index: 3;
@@ -8215,7 +8219,7 @@ p.filmmakers__additional {
   padding-bottom: 160px;
 }
 
-/* line 17, ../scss/_header.scss */
+/* line 8, ../scss/_header.scss */
 .header__content {
   padding-bottom: 48px;
   border-bottom: 3px solid #f0e5b7;
@@ -8244,71 +8248,73 @@ h2 {
 }
 /* line 22, ../scss/_headings.scss */
 h2.filmmakers__heading {
+  margin-top: 100px;
+  margin-bottom: 67px;
   color: #5b4937;
 }
 
-/* line 28, ../scss/_headings.scss */
+/* line 32, ../scss/_headings.scss */
 h3 {
   font-size: 36px;
   color: #5b4937;
 }
-/* line 33, ../scss/_headings.scss */
+/* line 37, ../scss/_headings.scss */
 h3.nav {
   color: #ffde38;
 }
-/* line 37, ../scss/_headings.scss */
+/* line 41, ../scss/_headings.scss */
 h3.filmmakers__heading {
   color: #5b4937;
 }
 
-/* line 42, ../scss/_headings.scss */
+/* line 46, ../scss/_headings.scss */
 h4 {
   font-size: 27px;
   color: #5b4937;
 }
-/* line 46, ../scss/_headings.scss */
+/* line 50, ../scss/_headings.scss */
 h4.filmmakers__heading {
   color: #90a4a4;
 }
-/* line 50, ../scss/_headings.scss */
+/* line 54, ../scss/_headings.scss */
 h4.filmmakers__additional {
   padding-top: 8px;
   padding-bottom: 8px;
 }
-/* line 55, ../scss/_headings.scss */
+/* line 59, ../scss/_headings.scss */
 h4.tickets__result__title {
   margin-top: 0px;
 }
 
-/* line 60, ../scss/_headings.scss */
+/* line 64, ../scss/_headings.scss */
 h5 {
   font-size: 18px;
   color: #5b4937;
 }
-/* line 63, ../scss/_headings.scss */
+/* line 67, ../scss/_headings.scss */
 h5.tickets__result__session__title {
   font-weight: 400;
 }
 
-/* line 69, ../scss/_headings.scss */
+/* line 73, ../scss/_headings.scss */
 .countdown {
   font-family: "Source Code Pro", "Lucida Grande", sans-serif;
   color: #ffde38;
   text-align: center;
 }
-/* line 74, ../scss/_headings.scss */
+/* line 78, ../scss/_headings.scss */
 .countdown.countdown__container {
   border-left: 3px solid #f0e5b7;
   height: 132px;
 }
-/* line 79, ../scss/_headings.scss */
+/* line 83, ../scss/_headings.scss */
 .countdown.countdown__title {
   font-size: 45px;
   font-weight: 300;
   margin-top: 16px;
   margin-bottom: 16px;
 }
-/* line 86, ../scss/_headings.scss */
+/* line 90, ../scss/_headings.scss */
 .countdown.countdown__counter {
   font-size: 36px;
   font-weight: 300;
@@ -8349,9 +8355,10 @@ video::-webkit-media-controls-time-remaining-display {
 
 /* line 28, ../scss/_home_main.scss */
 .home_main__text__border {
-  padding-left: 48px;
-  padding-right: 48px;
-  border-left: 3px solid #42110a;
+  padding-left: 115px;
+  padding-right: 115px;
+  border-left: 2px solid #42110a;
+  border-right: 2px solid #42110a;
 }
 
 /* line 1, ../scss/_footer.scss */

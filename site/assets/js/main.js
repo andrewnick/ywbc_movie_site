@@ -1,6 +1,6 @@
 $(document).ready ( function(){
 
-	var releaseDate = new Date("25 August 2014").getTime();
+	var releaseDate = new Date("19 September 2014").getTime();
 
 	var days,
 		hours,

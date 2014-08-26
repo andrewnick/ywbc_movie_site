@@ -26,7 +26,7 @@ video::-webkit-media-controls-time-remaining-display
 }
 
 .home_main__text__border{
-	padding-left: $section_vertical_padding;
-	padding-right: $section_vertical_padding;
-	@include addBorder($choc_brown, $left: true);
+	padding-left: 115px;//$section_vertical_padding;
+	padding-right:115px;// $section_vertical_padding;
+	@include addBorder($choc_brown, 2px, $left: true, $right: true);
 }
